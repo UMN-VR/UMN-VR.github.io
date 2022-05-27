@@ -1,7 +1,5 @@
 # UMN VR
 
-<div class="tagembed-container" style=" width:560%;height:100%;overflow: auto;"><div class="tagembed-socialwall" data-wall-id="44530" view-url="https://widget.tagembed.com/44530?view">  </div> <script src="//widget.tagembed.com/embed.min.js" type="text/javascript"></script></div>
-
 Click any of the QR Codes or pictures to access the link!
 
 ## Photogrammetry:
@@ -16,7 +14,11 @@ You may go to [https://umn-vr.github.io/WebGL_Demo](https://umn-vr.github.io/Web
 ### Google Drive: 
 
 ## Youtube:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Vl6J2ljAmZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="tagembed-container" style=" width:560%;height:100%;overflow: auto;"><div class="tagembed-socialwall" data-wall-id="44530" view-url="https://widget.tagembed.com/44530?view">  </div> <script src="//widget.tagembed.com/embed.min.js" type="text/javascript"></script></div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_vy5MKZzaGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yX52vTmb2IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Discord:
 
