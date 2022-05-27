@@ -9,7 +9,7 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_vy5MKZzaGs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yX52vTmb2IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/yX52vTmb2IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Photogrammetry:
@@ -20,7 +20,7 @@ You may go to [https://umn-vr.github.io/WebGL_Demo](https://umn-vr.github.io/Web
 
 ### Polycam:
 
-<iframe width="100%" height="315" frameborder="0" src="https://poly.cam/capture/4BF7B293-8FC5-4967-89F2-769D15F30F26"></iframe>
+<iframe width="100%" height="615" frameborder="0" src="https://poly.cam/capture/4BF7B293-8FC5-4967-89F2-769D15F30F26"></iframe>
 
 [https://poly.cam/@Felipegalind0](https://poly.cam/@Felipegalind0)
 
