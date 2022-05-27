@@ -36,9 +36,9 @@ Click any of the QR Codes or pictures to access the link!
 ## Tip Sheet
 [![Env](QR's/UMN-VR_Docs.png)](https://z.umn.edu/UMN-VR_Document)
 
-##About
+## About
 
-We are a student group that meets occasionally in the HSL virtual reality lab. We make VR experiences and work on other high-tech stuff. We are known for the 360 Drone videos created by Felipe. We were founded by Felipe Galindo in 2021. 
+We are a student group that meets occasionally in the HSL virtual reality lab. We make VR apps, 360 videos, and much more. We are known for the 360 Drone videos and VR experiences created by Felipe. We were founded by Felipe Galindo with the help of staff member Charlie Heinz in 2021. 
 
 ## Founding Members: 
 
