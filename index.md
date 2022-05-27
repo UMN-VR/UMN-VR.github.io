@@ -1,5 +1,7 @@
 # UMN VR
 
+<div class="tagembed-container" style=" width:560%;height:100%;overflow: auto;"><div class="tagembed-socialwall" data-wall-id="44530" view-url="https://widget.tagembed.com/44530?view">  </div> <script src="//widget.tagembed.com/embed.min.js" type="text/javascript"></script></div>
+
 Click any of the QR Codes or pictures to access the link!
 
 ## Photogrammetry:
