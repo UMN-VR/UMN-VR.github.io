@@ -43,7 +43,7 @@ Click any of the QR Codes or pictures to access the link!
 
 ## About
 
-We are a student group that meets occasionally in the HSL virtual reality lab. We make VR apps, 360 videos, and much more. We are known for the 360 Drone videos and VR experiences created by Felipe. We were founded by Felipe Galindo with the help of staff member Charlie Heinz in 2021. 
+We are a student group that meets occasionally in the HSL virtual reality lab. We make VR apps, 360 videos, and much more. We were founded by Felipe Galindo with the help of staff member Charlie Heinz in 2021. 
 
 ## Founding Members: 
 
