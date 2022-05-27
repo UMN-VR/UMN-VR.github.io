@@ -19,6 +19,7 @@
 You may go to [https://umn-vr.github.io/WebGL_Demo](https://umn-vr.github.io/WebGL_Demo/) on a headset's browser or a PC connected to a Headset and try the experience
 
 ### Polycam:
+[https://poly.cam/@Felipegalind0](https://poly.cam/@Felipegalind0)
 
 ### Github:
 [https://github.com/UMN-VR](https://github.com/UMN-VR)
