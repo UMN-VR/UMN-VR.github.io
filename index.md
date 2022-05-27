@@ -1,18 +1,5 @@
 # UMN VR
 
-Click any of the QR Codes or pictures to access the link!
-
-## Photogrammetry:
-### WebGL
- 
-You may go to [https://umn-vr.github.io/WebGL_Demo](https://umn-vr.github.io/WebGL_Demo/) on a headset's browser or a PC connected to a Headset and try the experience
-
-### Polycam:
-
-### Github:
-
-### Google Drive: 
-
 ## Youtube:
 
 
@@ -25,6 +12,19 @@ You may go to [https://umn-vr.github.io/WebGL_Demo](https://umn-vr.github.io/Web
 <iframe width="560" height="315" src="https://www.youtube.com/embed/yX52vTmb2IM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+## Photogrammetry:
+
+### WebGL
+ 
+You may go to [https://umn-vr.github.io/WebGL_Demo](https://umn-vr.github.io/WebGL_Demo/) on a headset's browser or a PC connected to a Headset and try the experience
+
+### Polycam:
+
+### Github:
+
+### Google Drive: 
+
+Click any of the QR Codes or pictures to access the link!
 ## Discord:
 
 [![Env](QR's/UMN-VR_Discord.png)](https://z.umn.edu/UMN-VR_Discord)
