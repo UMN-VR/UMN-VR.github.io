@@ -21,6 +21,7 @@ You may go to [https://umn-vr.github.io/WebGL_Demo](https://umn-vr.github.io/Web
 ### Polycam:
 
 ### Github:
+[https://github.com/UMN-VR](https://github.com/UMN-VR)
 
 ### Google Drive: 
 
