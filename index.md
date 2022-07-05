@@ -8,8 +8,12 @@
 
 
 ## Photogrammetry:
+Goldstein Museum of Design Photogrammetry VR Tour App
 
-### WebGL
+
+
+
+#### WebGL
  
 You may go to [https://umn-vr.github.io/WebGL_Demo](https://umn-vr.github.io/WebGL_Demo/) on a headset's browser or a PC connected to a Headset and try the experience
 
