@@ -4,7 +4,7 @@
 [https://umn-vr.github.io/GoldyDog/](https://umn-vr.github.io/GoldyDog/)
 
 ## Youtube:
-
+[https://umn-vr.github.io/Youtube/](https://umn-vr.github.io/Youtube)
 
 
 ## Photogrammetry:
@@ -24,17 +24,9 @@ You may go to [https://umn-vr.github.io/WebGL_Demo](https://umn-vr.github.io/Web
 
 ### Google Drive: 
 
-Click any of the QR Codes or pictures to access the link!
-## Discord:
+## Join Us:
+[https://umn-vr.github.io/QR-codes/](https://umn-vr.github.io/QR-codes/)
 
-[![Env](QR's/UMN-VR_Discord.png)](https://z.umn.edu/UMN-VR_Discord)
-
-## Signup Form:
-
-[![Env](QR's/UMN-VR_Interest.png)](https://z.umn.edu/UMN-VR_form)
-
-## Tip Sheet
-[![Env](QR's/UMN-VR_Docs.png)](https://z.umn.edu/UMN-VR_Document)
 
 ## About
 
@@ -52,5 +44,3 @@ We are a student group that meets occasionally in the HSL virtual reality lab. W
 - Donald Bystrom
 - John Roess
 
-
-[https://umn-vr.github.io/GoldyDog/](https://umn-vr.github.io/GoldyDog/)
