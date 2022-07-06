@@ -1,32 +1,32 @@
 # UMN VR
 
 ## GoldyDog:
-[https://umn-vr.github.io/GoldyDog/](https://umn-vr.github.io/GoldyDog/)
+[umn-vr.github.io/GoldyDog/](https://umn-vr.github.io/GoldyDog/)
 
 ## Youtube:
-[https://umn-vr.github.io/Youtube/](https://umn-vr.github.io/Youtube)
+[umn-vr.github.io/Youtube/](https://umn-vr.github.io/Youtube)
 
 
 ## Photogrammetry:
 [Goldstein Museum of Design Photogrammetry VR Tour App](https://umn-vr.github.io/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/)
 #### WebVR
-You may go to [https://umn-vr.github.io/WebGL_Demo](https://umn-vr.github.io/WebGL_Demo/) and effortlessly try the experience on a headset's browser or a PC connected to a Headset. This runs on a Quest2 but lacks the optimisation needed to be used properly, use this [App](https://github.com/UMN-VR/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/releases/tag/v1.0-qSDK) instead. 
+You may go to [umn-vr.github.io/WebGL_Demo](https://umn-vr.github.io/WebGL_Demo/) and effortlessly try the experience on a headset's browser or a PC connected to a Headset. This runs on a Quest2 but lacks the optimisation needed to be used properly, use this [App](https://github.com/UMN-VR/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/releases/tag/v1.0-qSDK) instead. 
 #### Github:
-[https://github.com/UMN-VR](https://github.com/UMN-VR)
+[github.com/UMN-VR](https://github.com/UMN-VR)
 
 ### Polycam:
 
 <iframe width="100%" height="815" frameborder="0" src="https://poly.cam/capture/4BF7B293-8FC5-4967-89F2-769D15F30F26"></iframe>
 
-[https://poly.cam/@Felipegalind0](https://poly.cam/@Felipegalind0)
+[poly.cam/@Felipegalind0](https://poly.cam/@Felipegalind0)
 
 ### Github:
-[https://github.com/UMN-VR](https://github.com/UMN-VR)
+[github.com/UMN-VR](https://github.com/UMN-VR)
 
 ### Google Drive: 
 
 ## Join Us:
-[https://umn-vr.github.io/QR-codes/](https://umn-vr.github.io/QR-codes/)
+[umn-vr.github.io/QR-codes/](https://umn-vr.github.io/QR-codes/)
 
 
 ## About
