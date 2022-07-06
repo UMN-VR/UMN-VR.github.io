@@ -8,14 +8,11 @@
 
 
 ## Photogrammetry:
-Goldstein Museum of Design Photogrammetry VR Tour App
-
-
-
-
-#### WebGL
- 
-You may go to [https://umn-vr.github.io/WebGL_Demo](https://umn-vr.github.io/WebGL_Demo/) on a headset's browser or a PC connected to a Headset and try the experience
+[Goldstein Museum of Design Photogrammetry VR Tour App](https://umn-vr.github.io/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/)
+#### WebVR
+You may go to [https://umn-vr.github.io/WebGL_Demo](https://umn-vr.github.io/WebGL_Demo/) and effortlessly try the experience on a headset's browser or a PC connected to a Headset. This runs on a Quest2 but lacks the optimisation needed to be used properly, use this [App](https://github.com/UMN-VR/Goldstein-Museum-of-Design-Photogrammetry-VR-Tour-App/releases/tag/v1.0-qSDK) instead. 
+#### Github:
+[https://github.com/UMN-VR](https://github.com/UMN-VR)
 
 ### Polycam:
 
