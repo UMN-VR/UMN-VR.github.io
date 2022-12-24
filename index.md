@@ -3,8 +3,9 @@
 ## GoldyDog:
 [umn-vr.github.io/GoldyDog/](https://umn-vr.github.io/GoldyDog/)
 
-## Youtube:
+## [Youtube](https://www.youtube.com/@umnvr7380):
 [umn-vr.github.io/Youtube/](https://umn-vr.github.io/Youtube)
+[https://www.youtube.com/@umnvr7380](https://www.youtube.com/@umnvr7380)
 
 
 ## Photogrammetry:
