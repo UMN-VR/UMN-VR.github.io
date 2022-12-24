@@ -4,7 +4,7 @@
 [umn-vr.github.io/GoldyDog/](https://umn-vr.github.io/GoldyDog/)
 
 ## [Youtube](https://www.youtube.com/@umnvr7380):
-[umn-vr.github.io/Youtube/](https://umn-vr.github.io/Youtube)
+[umn-vr.github.io/Youtube/](https://umn-vr.github.io/Youtube)\
 [https://www.youtube.com/@umnvr7380](https://www.youtube.com/@umnvr7380)
 
 
