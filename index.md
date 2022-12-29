@@ -1,3 +1,5 @@
+###### v5.0 <br/> Made with ❤️ by [Felipe Galindo](https://felipegalind0.github.io)
+
 # UMN VR
 
 ## GoldyDog:
