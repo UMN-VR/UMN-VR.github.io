@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "life-and-environmental-sciences",
-    "revision": "f2e74dcf476a",
+    "revision": "981602b387ba",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1364685,
         "url": "media/life-and-environmental-sciences/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2633009,
+        "url": "media/life-and-environmental-sciences/immersion-6144.jpg"
       }
     ]
   },

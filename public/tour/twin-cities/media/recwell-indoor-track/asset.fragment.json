@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "recwell-indoor-track",
-    "revision": "f1949567a208",
+    "revision": "cdc3b568eb71",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2344452,
         "url": "media/recwell-indoor-track/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 4626109,
+        "url": "media/recwell-indoor-track/immersion-6144.jpg"
       }
     ]
   },

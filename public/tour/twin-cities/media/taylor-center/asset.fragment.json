@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "taylor-center",
-    "revision": "f9dc40ca20ce",
+    "revision": "0493ccf8e509",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1887214,
         "url": "media/taylor-center/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3505879,
+        "url": "media/taylor-center/immersion-6144.jpg"
       }
     ]
   },

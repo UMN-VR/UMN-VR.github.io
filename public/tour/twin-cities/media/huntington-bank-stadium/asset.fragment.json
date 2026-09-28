@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "huntington-bank-stadium",
-    "revision": "1557731d1dcb",
+    "revision": "c0078dfde281",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1808962,
         "url": "media/huntington-bank-stadium/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3662242,
+        "url": "media/huntington-bank-stadium/immersion-6144.jpg"
       }
     ]
   },

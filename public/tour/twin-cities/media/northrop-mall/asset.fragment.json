@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "northrop-mall",
-    "revision": "b00722f53d0b",
+    "revision": "250f7c2464ed",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2408541,
         "url": "media/northrop-mall/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 4891360,
+        "url": "media/northrop-mall/immersion-6144.jpg"
       }
     ]
   },

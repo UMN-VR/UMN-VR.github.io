@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "education-sciences-building",
-    "revision": "17c071a25a41",
+    "revision": "53c7747a5e90",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1250915,
         "url": "media/education-sciences-building/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2351492,
+        "url": "media/education-sciences-building/immersion-6144.jpg"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "washington-avenue-walking-bridge",
-    "revision": "7df1ae159f08",
+    "revision": "850fa75df414",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 929563,
         "url": "media/washington-avenue-walking-bridge/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 1793179,
+        "url": "media/washington-avenue-walking-bridge/immersion-6144.jpg"
       }
     ]
   },

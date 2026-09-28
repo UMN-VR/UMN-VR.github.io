@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "hanson-hall-minnesota-carlson",
-    "revision": "3eb1a2c03a48",
+    "revision": "f3b48d186185",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1715313,
         "url": "media/hanson-hall-minnesota-carlson/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3358161,
+        "url": "media/hanson-hall-minnesota-carlson/immersion-6144.jpg"
       }
     ]
   },

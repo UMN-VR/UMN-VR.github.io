@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "walter-library-computer-lab",
-    "revision": "cc0ee977b17b",
+    "revision": "2a066927123f",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1551024,
         "url": "media/walter-library-computer-lab/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2998749,
+        "url": "media/walter-library-computer-lab/immersion-6144.jpg"
       }
     ]
   },

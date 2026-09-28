@@ -32,7 +32,8 @@
     ],
     "immersionWidths": [
       2048,
-      4096
+      4096,
+      6144
     ],
     "encoding": "jpeg",
     "quality": 80,
@@ -183,6 +184,13 @@
       "sha256": "b039487fe971c50edb82743f5d0b251ee74b0c9af0eb79101d1a6517dcba8a88",
       "width": 4096,
       "height": 2048
+    },
+    {
+      "path": "immersion-6144.jpg",
+      "bytes": 4159752,
+      "sha256": "90cb911069819b04371a613490fc125b0c2b8a9d8ab6940a319d91f89369dfa2",
+      "width": 6144,
+      "height": 3072
     }
   ]
 }

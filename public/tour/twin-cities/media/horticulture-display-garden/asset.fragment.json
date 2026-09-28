@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "horticulture-display-garden",
-    "revision": "1861fb5c4680",
+    "revision": "2f8c75f3f8b1",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2171129,
         "url": "media/horticulture-display-garden/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 4159752,
+        "url": "media/horticulture-display-garden/immersion-6144.jpg"
       }
     ]
   },

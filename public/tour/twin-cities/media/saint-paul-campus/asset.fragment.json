@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "saint-paul-campus",
-    "revision": "61ee56384207",
+    "revision": "12109aa3c865",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1393905,
         "url": "media/saint-paul-campus/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2729738,
+        "url": "media/saint-paul-campus/immersion-6144.jpg"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "atrium-of-tate-hall",
-    "revision": "3e3babf53e82",
+    "revision": "057229ae433d",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1397864,
         "url": "media/atrium-of-tate-hall/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2760418,
+        "url": "media/atrium-of-tate-hall/immersion-6144.jpg"
       }
     ]
   },

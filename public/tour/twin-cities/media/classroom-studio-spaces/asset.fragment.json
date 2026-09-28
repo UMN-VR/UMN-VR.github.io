@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "classroom-studio-spaces",
-    "revision": "895c5c0fd2a2",
+    "revision": "20636e424e63",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1400813,
         "url": "media/classroom-studio-spaces/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2616338,
+        "url": "media/classroom-studio-spaces/immersion-6144.jpg"
       }
     ]
   },

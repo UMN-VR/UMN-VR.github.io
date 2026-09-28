@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "rarig-theater",
-    "revision": "cc1d005e24bf",
+    "revision": "f013f77444cb",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1373427,
         "url": "media/rarig-theater/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2629492,
+        "url": "media/rarig-theater/immersion-6144.jpg"
       }
     ]
   },

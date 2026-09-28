@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "health-sciences-education-center",
-    "revision": "72abd98c97e2",
+    "revision": "74458d760a67",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 671160,
         "url": "media/health-sciences-education-center/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 1317044,
+        "url": "media/health-sciences-education-center/immersion-6144.jpg"
       }
     ]
   },

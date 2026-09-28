@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "impact-and-value-of-a-umn-degree",
-    "revision": "5ded2fc1a313",
+    "revision": "9498f8c6038f",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1424724,
         "url": "media/impact-and-value-of-a-umn-degree/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2712462,
+        "url": "media/impact-and-value-of-a-umn-degree/immersion-6144.jpg"
       }
     ]
   },

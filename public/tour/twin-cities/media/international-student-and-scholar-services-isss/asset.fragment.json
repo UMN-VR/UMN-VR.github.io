@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "international-student-and-scholar-services-isss",
-    "revision": "1ca17eaee24c",
+    "revision": "7c03a38188dc",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 998881,
         "url": "media/international-student-and-scholar-services-isss/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 1913957,
+        "url": "media/international-student-and-scholar-services-isss/immersion-6144.jpg"
       }
     ]
   },

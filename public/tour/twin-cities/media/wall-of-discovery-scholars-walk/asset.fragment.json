@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "wall-of-discovery-scholars-walk",
-    "revision": "8329cc84fba5",
+    "revision": "119e905fece7",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1724313,
         "url": "media/wall-of-discovery-scholars-walk/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3294936,
+        "url": "media/wall-of-discovery-scholars-walk/immersion-6144.jpg"
       }
     ]
   },

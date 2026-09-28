@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "nursing-labs-at-the-bentson-center",
-    "revision": "1607c59bb73b",
+    "revision": "db27e7828a3c",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1019784,
         "url": "media/nursing-labs-at-the-bentson-center/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 1890794,
+        "url": "media/nursing-labs-at-the-bentson-center/immersion-6144.jpg"
       }
     ]
   },

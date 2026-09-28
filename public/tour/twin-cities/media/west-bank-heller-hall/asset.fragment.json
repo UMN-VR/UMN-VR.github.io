@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "west-bank-heller-hall",
-    "revision": "e74313cd8893",
+    "revision": "4edc56fa0d53",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1036057,
         "url": "media/west-bank-heller-hall/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2012302,
+        "url": "media/west-bank-heller-hall/immersion-6144.jpg"
       }
     ]
   },

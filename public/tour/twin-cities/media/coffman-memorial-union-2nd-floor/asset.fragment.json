@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "coffman-memorial-union-2nd-floor",
-    "revision": "b804ec4501da",
+    "revision": "ecfbc465e062",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 986503,
         "url": "media/coffman-memorial-union-2nd-floor/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 1905476,
+        "url": "media/coffman-memorial-union-2nd-floor/immersion-6144.jpg"
       }
     ]
   },

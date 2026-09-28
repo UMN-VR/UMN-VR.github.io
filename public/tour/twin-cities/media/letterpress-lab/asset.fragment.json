@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "letterpress-lab",
-    "revision": "e80480f44e2e",
+    "revision": "1cc64c7c6098",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1012097,
         "url": "media/letterpress-lab/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 1922961,
+        "url": "media/letterpress-lab/immersion-6144.jpg"
       }
     ]
   },

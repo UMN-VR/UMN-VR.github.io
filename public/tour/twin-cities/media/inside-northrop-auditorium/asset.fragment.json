@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "inside-northrop-auditorium",
-    "revision": "93e4abc2c957",
+    "revision": "a56ad025921e",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1611139,
         "url": "media/inside-northrop-auditorium/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3028190,
+        "url": "media/inside-northrop-auditorium/immersion-6144.jpg"
       }
     ]
   },

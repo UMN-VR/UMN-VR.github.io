@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "m-simulation-lab",
-    "revision": "61048ed0116f",
+    "revision": "b6fe9f5bc77b",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 734968,
         "url": "media/m-simulation-lab/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 1445883,
+        "url": "media/m-simulation-lab/immersion-6144.jpg"
       }
     ]
   },

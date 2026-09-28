@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "folwell-hall",
-    "revision": "7420c95d8b4c",
+    "revision": "8bb553966ba3",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1276357,
         "url": "media/folwell-hall/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2452407,
+        "url": "media/folwell-hall/immersion-6144.jpg"
       }
     ]
   },

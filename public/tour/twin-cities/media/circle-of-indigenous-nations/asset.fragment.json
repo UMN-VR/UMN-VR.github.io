@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "circle-of-indigenous-nations",
-    "revision": "a83c674d0650",
+    "revision": "3ae08858c395",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1586134,
         "url": "media/circle-of-indigenous-nations/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3131007,
+        "url": "media/circle-of-indigenous-nations/immersion-6144.jpg"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "washington-avenue-bridge-and-the-mississippi-river",
-    "revision": "e7157481ce5d",
+    "revision": "68fc0293f155",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1118002,
         "url": "media/washington-avenue-bridge-and-the-mississippi-river/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2161101,
+        "url": "media/washington-avenue-bridge-and-the-mississippi-river/immersion-6144.jpg"
       }
     ]
   },

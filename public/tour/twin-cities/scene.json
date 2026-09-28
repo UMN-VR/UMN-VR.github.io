@@ -2,7 +2,7 @@
   "format": "foss-earth-scene",
   "version": 1,
   "id": "umn-twin-cities",
-  "revision": "0c8dac3e529c",
+  "revision": "fa934cc3003e",
   "title": "University of Minnesota Twin Cities: campus tour",
   "requiredExtensions": [],
   "extensions": {
@@ -17,7 +17,7 @@
   "assets": [
     {
       "id": "northrop-mall",
-      "revision": "b00722f53d0b",
+      "revision": "250f7c2464ed",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -92,12 +92,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2408541,
           "url": "media/northrop-mall/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4891360,
+          "url": "media/northrop-mall/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "folwell-hall",
-      "revision": "7420c95d8b4c",
+      "revision": "8bb553966ba3",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -172,12 +182,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1276357,
           "url": "media/folwell-hall/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2452407,
+          "url": "media/folwell-hall/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "inside-northrop-auditorium",
-      "revision": "93e4abc2c957",
+      "revision": "a56ad025921e",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -252,12 +272,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1611139,
           "url": "media/inside-northrop-auditorium/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3028190,
+          "url": "media/inside-northrop-auditorium/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "walter-library-lobby",
-      "revision": "6e3717134877",
+      "revision": "eac5ed4a0de3",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -332,12 +362,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1561939,
           "url": "media/walter-library-lobby/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2931363,
+          "url": "media/walter-library-lobby/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "the-toaster-innovation-hub",
-      "revision": "b169e5066ddc",
+      "revision": "587a4b315088",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -412,12 +452,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1239725,
           "url": "media/the-toaster-innovation-hub/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2314586,
+          "url": "media/the-toaster-innovation-hub/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "walter-library-study-space",
-      "revision": "c87c4cec4f33",
+      "revision": "06e78bc300fa",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -492,12 +542,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2325747,
           "url": "media/walter-library-study-space/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4505753,
+          "url": "media/walter-library-study-space/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "walter-library-computer-lab",
-      "revision": "cc0ee977b17b",
+      "revision": "2a066927123f",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -572,12 +632,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1551024,
           "url": "media/walter-library-computer-lab/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2998749,
+          "url": "media/walter-library-computer-lab/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "fraser-hall-student-lounge",
-      "revision": "a902e99a7f18",
+      "revision": "d1cb12a9cbf7",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -652,12 +722,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1229735,
           "url": "media/fraser-hall-student-lounge/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2368849,
+          "url": "media/fraser-hall-student-lounge/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "undergraduate-teaching-labs",
-      "revision": "d4e9d4ca7feb",
+      "revision": "52347b01c0c1",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -732,12 +812,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 825856,
           "url": "media/undergraduate-teaching-labs/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1616284,
+          "url": "media/undergraduate-teaching-labs/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "education-sciences-building",
-      "revision": "17c071a25a41",
+      "revision": "53c7747a5e90",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -812,12 +902,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1250915,
           "url": "media/education-sciences-building/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2351492,
+          "url": "media/education-sciences-building/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "washington-avenue-walking-bridge",
-      "revision": "7df1ae159f08",
+      "revision": "850fa75df414",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -892,12 +992,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 929563,
           "url": "media/washington-avenue-walking-bridge/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1793179,
+          "url": "media/washington-avenue-walking-bridge/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "atrium-of-tate-hall",
-      "revision": "3e3babf53e82",
+      "revision": "057229ae433d",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -972,12 +1082,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1397864,
           "url": "media/atrium-of-tate-hall/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2760418,
+          "url": "media/atrium-of-tate-hall/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "taylor-center",
-      "revision": "f9dc40ca20ce",
+      "revision": "0493ccf8e509",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1052,12 +1172,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1887214,
           "url": "media/taylor-center/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3505879,
+          "url": "media/taylor-center/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "circle-of-indigenous-nations",
-      "revision": "a83c674d0650",
+      "revision": "3ae08858c395",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1132,12 +1262,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1586134,
           "url": "media/circle-of-indigenous-nations/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3131007,
+          "url": "media/circle-of-indigenous-nations/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "bruininks-hall-student-services",
-      "revision": "ffd2c23151d8",
+      "revision": "b4af1a89d6bc",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1212,12 +1352,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1110934,
           "url": "media/bruininks-hall-student-services/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2151038,
+          "url": "media/bruininks-hall-student-services/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "center-for-academic-planning-and-exploration",
-      "revision": "7be4baeeb8f2",
+      "revision": "01d988880a6b",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1292,12 +1442,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 941317,
           "url": "media/center-for-academic-planning-and-exploration/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1841008,
+          "url": "media/center-for-academic-planning-and-exploration/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "one-stop-student-services",
-      "revision": "754d6053d5e1",
+      "revision": "b7d4f437238e",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1372,12 +1532,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1107427,
           "url": "media/one-stop-student-services/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2212375,
+          "url": "media/one-stop-student-services/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "health-sciences-education-center",
-      "revision": "72abd98c97e2",
+      "revision": "74458d760a67",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1452,12 +1622,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 671160,
           "url": "media/health-sciences-education-center/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1317044,
+          "url": "media/health-sciences-education-center/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "nursing-labs-at-the-bentson-center",
-      "revision": "1607c59bb73b",
+      "revision": "db27e7828a3c",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1532,12 +1712,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1019784,
           "url": "media/nursing-labs-at-the-bentson-center/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1890794,
+          "url": "media/nursing-labs-at-the-bentson-center/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "immersive-learning-at-the-bentson-center",
-      "revision": "853e7854ff04",
+      "revision": "ae5f1f916230",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1612,12 +1802,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 750457,
           "url": "media/immersive-learning-at-the-bentson-center/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1411383,
+          "url": "media/immersive-learning-at-the-bentson-center/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "health-sciences-education-center-7th-floor",
-      "revision": "42b2a7f3d9f9",
+      "revision": "ad19a7d63ae4",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1692,12 +1892,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1159496,
           "url": "media/health-sciences-education-center-7th-floor/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2161572,
+          "url": "media/health-sciences-education-center-7th-floor/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "m-simulation-lab",
-      "revision": "61048ed0116f",
+      "revision": "b6fe9f5bc77b",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1772,12 +1982,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 734968,
           "url": "media/m-simulation-lab/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1445883,
+          "url": "media/m-simulation-lab/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "coffman-memorial-union",
-      "revision": "0057876062cc",
+      "revision": "b94d4cfb8aed",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1852,12 +2072,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 868992,
           "url": "media/coffman-memorial-union/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1580897,
+          "url": "media/coffman-memorial-union/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "student-union-bookstore",
-      "revision": "18c6810f6ba3",
+      "revision": "ddda4d03f961",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1932,12 +2162,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 821842,
           "url": "media/student-union-bookstore/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1533826,
+          "url": "media/student-union-bookstore/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "coffman-memorial-union-2nd-floor",
-      "revision": "b804ec4501da",
+      "revision": "ecfbc465e062",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2012,12 +2252,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 986503,
           "url": "media/coffman-memorial-union-2nd-floor/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1905476,
+          "url": "media/coffman-memorial-union-2nd-floor/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "washington-avenue-bridge-and-the-mississippi-river",
-      "revision": "e7157481ce5d",
+      "revision": "68fc0293f155",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2092,12 +2342,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1118002,
           "url": "media/washington-avenue-bridge-and-the-mississippi-river/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2161101,
+          "url": "media/washington-avenue-bridge-and-the-mississippi-river/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "west-bank-heller-hall",
-      "revision": "e74313cd8893",
+      "revision": "4edc56fa0d53",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2172,12 +2432,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1036057,
           "url": "media/west-bank-heller-hall/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2012302,
+          "url": "media/west-bank-heller-hall/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "international-student-and-scholar-services-isss",
-      "revision": "1ca17eaee24c",
+      "revision": "7c03a38188dc",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2252,12 +2522,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 998881,
           "url": "media/international-student-and-scholar-services-isss/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1913957,
+          "url": "media/international-student-and-scholar-services-isss/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "hanson-hall-minnesota-carlson",
-      "revision": "3eb1a2c03a48",
+      "revision": "f3b48d186185",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2332,12 +2612,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1715313,
           "url": "media/hanson-hall-minnesota-carlson/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3358161,
+          "url": "media/hanson-hall-minnesota-carlson/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "carlson-school-of-management",
-      "revision": "6858fc594261",
+      "revision": "4bbd26001286",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2412,12 +2702,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1024165,
           "url": "media/carlson-school-of-management/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2043376,
+          "url": "media/carlson-school-of-management/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "rarig-theater",
-      "revision": "cc1d005e24bf",
+      "revision": "f013f77444cb",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2492,12 +2792,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1373427,
           "url": "media/rarig-theater/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2629492,
+          "url": "media/rarig-theater/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "regis-center-for-art-gallery",
-      "revision": "ea9f14898d18",
+      "revision": "efe605daae4e",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2572,12 +2882,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1106376,
           "url": "media/regis-center-for-art-gallery/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2106792,
+          "url": "media/regis-center-for-art-gallery/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "classroom-studio-spaces",
-      "revision": "895c5c0fd2a2",
+      "revision": "20636e424e63",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2652,12 +2972,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1400813,
           "url": "media/classroom-studio-spaces/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2616338,
+          "url": "media/classroom-studio-spaces/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "saint-paul-campus",
-      "revision": "61ee56384207",
+      "revision": "12109aa3c865",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2732,12 +3062,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1393905,
           "url": "media/saint-paul-campus/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2729738,
+          "url": "media/saint-paul-campus/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "horticulture-display-garden",
-      "revision": "1861fb5c4680",
+      "revision": "2f8c75f3f8b1",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2812,12 +3152,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2171129,
           "url": "media/horticulture-display-garden/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4159752,
+          "url": "media/horticulture-display-garden/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "life-and-environmental-sciences",
-      "revision": "f2e74dcf476a",
+      "revision": "981602b387ba",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2892,12 +3242,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1364685,
           "url": "media/life-and-environmental-sciences/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2633009,
+          "url": "media/life-and-environmental-sciences/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "plant-diagnostics-lab",
-      "revision": "08e585204776",
+      "revision": "685bf8f3e1a4",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2972,12 +3332,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1242197,
           "url": "media/plant-diagnostics-lab/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2456229,
+          "url": "media/plant-diagnostics-lab/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "mcneal-hall-design-studio",
-      "revision": "00c7109731fd",
+      "revision": "fa122dee63f1",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3052,12 +3422,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 823337,
           "url": "media/mcneal-hall-design-studio/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1552131,
+          "url": "media/mcneal-hall-design-studio/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "letterpress-lab",
-      "revision": "e80480f44e2e",
+      "revision": "1cc64c7c6098",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3132,12 +3512,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1012097,
           "url": "media/letterpress-lab/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1922961,
+          "url": "media/letterpress-lab/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "apparel-design-classroom",
-      "revision": "f0eae3260f4f",
+      "revision": "cf429836e86b",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3212,12 +3602,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1322863,
           "url": "media/apparel-design-classroom/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2480500,
+          "url": "media/apparel-design-classroom/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "cfans",
-      "revision": "dbc9f987142b",
+      "revision": "632690740ab2",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3292,12 +3692,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1828870,
           "url": "media/cfans/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3394504,
+          "url": "media/cfans/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "community-connections",
-      "revision": "57f36d594d2f",
+      "revision": "dfa198a6f931",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3372,12 +3782,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1137248,
           "url": "media/community-connections/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2165450,
+          "url": "media/community-connections/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "bell-museum-planetarium",
-      "revision": "75ccc7c4badc",
+      "revision": "807e845e2097",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3452,12 +3872,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1129910,
           "url": "media/bell-museum-planetarium/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2133540,
+          "url": "media/bell-museum-planetarium/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "recreation-and-wellness-center",
-      "revision": "a6515a78c2c6",
+      "revision": "2f551cd5a8fa",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3532,12 +3962,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1054781,
           "url": "media/recreation-and-wellness-center/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2003156,
+          "url": "media/recreation-and-wellness-center/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "recwell-indoor-track",
-      "revision": "f1949567a208",
+      "revision": "cdc3b568eb71",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3612,12 +4052,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2344452,
           "url": "media/recwell-indoor-track/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4626109,
+          "url": "media/recwell-indoor-track/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "recwell-lobby",
-      "revision": "85e476d5c6f8",
+      "revision": "a11ace66529c",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3692,12 +4142,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1302051,
           "url": "media/recwell-lobby/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2503608,
+          "url": "media/recwell-lobby/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "golden-gopher-spirit-athletics",
-      "revision": "96eb0a1b54be",
+      "revision": "a063d5177ff4",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3772,12 +4232,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1140412,
           "url": "media/golden-gopher-spirit-athletics/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2203492,
+          "url": "media/golden-gopher-spirit-athletics/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "huntington-bank-stadium",
-      "revision": "1557731d1dcb",
+      "revision": "c0078dfde281",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3852,12 +4322,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1808962,
           "url": "media/huntington-bank-stadium/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3662242,
+          "url": "media/huntington-bank-stadium/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "stone-arch-bridge",
-      "revision": "e8f74ce995b6",
+      "revision": "8e14dea5f693",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3932,12 +4412,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1532229,
           "url": "media/stone-arch-bridge/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2966591,
+          "url": "media/stone-arch-bridge/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "the-commons-park",
-      "revision": "aae107c1887a",
+      "revision": "4e56e237fea7",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4012,12 +4502,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2222716,
           "url": "media/the-commons-park/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4414927,
+          "url": "media/the-commons-park/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "residence-life-and-dining",
-      "revision": "7dd05b5ae53e",
+      "revision": "5ba06f983dec",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4092,12 +4592,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1050708,
           "url": "media/residence-life-and-dining/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2029351,
+          "url": "media/residence-life-and-dining/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "superblock",
-      "revision": "af0a71506199",
+      "revision": "299bc8dba03b",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4172,12 +4682,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2978620,
           "url": "media/superblock/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 5797306,
+          "url": "media/superblock/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "17th-ave-residence-hall",
-      "revision": "0fb6dec50f53",
+      "revision": "7ac2aacafe0c",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4252,12 +4772,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1024007,
           "url": "media/17th-ave-residence-hall/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1942480,
+          "url": "media/17th-ave-residence-hall/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "pioneer-hall-lobby",
-      "revision": "ca65a4f24749",
+      "revision": "351bf8034814",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4332,12 +4862,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 959112,
           "url": "media/pioneer-hall-lobby/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1831770,
+          "url": "media/pioneer-hall-lobby/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "superblock-outdoor-area",
-      "revision": "627c4f8f161c",
+      "revision": "eca00e0595d8",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4412,12 +4952,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1202424,
           "url": "media/superblock-outdoor-area/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2305221,
+          "url": "media/superblock-outdoor-area/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "impact-and-value-of-a-umn-degree",
-      "revision": "5ded2fc1a313",
+      "revision": "9498f8c6038f",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4492,12 +5042,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1424724,
           "url": "media/impact-and-value-of-a-umn-degree/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2712462,
+          "url": "media/impact-and-value-of-a-umn-degree/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "wall-of-discovery-scholars-walk",
-      "revision": "8329cc84fba5",
+      "revision": "119e905fece7",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4572,12 +5132,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1724313,
           "url": "media/wall-of-discovery-scholars-walk/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3294936,
+          "url": "media/wall-of-discovery-scholars-walk/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "northrop-auditorium",
-      "revision": "f9a82017a1db",
+      "revision": "b37b66da0951",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4652,12 +5222,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1275983,
           "url": "media/northrop-auditorium/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2488531,
+          "url": "media/northrop-auditorium/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "mcneal-hall",
-      "revision": "2255c6c69bf9",
+      "revision": "f97b8112479e",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4732,12 +5312,22 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2590717,
           "url": "media/mcneal-hall/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 5083857,
+          "url": "media/mcneal-hall/immersion-6144.jpg"
         }
       ]
     },
     {
       "id": "st-paul-mall",
-      "revision": "55350e135a6f",
+      "revision": "fbfcaa8e9bc9",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4812,6 +5402,16 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2123838,
           "url": "media/st-paul-mall/immersion-4096.jpg"
+        },
+        {
+          "id": "whole-6144",
+          "role": "immersion",
+          "projection": "equirectangular",
+          "width": 6144,
+          "height": 3072,
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4339979,
+          "url": "media/st-paul-mall/immersion-6144.jpg"
         }
       ]
     }
@@ -4832,7 +5432,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -4888,7 +5489,6 @@
           },
           "capture": "YouVisit's tour point for stop 306373, Welcome to the UMN Twin Cities (feat. Northrop Mall), whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -4909,7 +5509,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -4938,7 +5539,6 @@
           },
           "capture": "YouVisit's interactive map position for stop 306371, Folwell Hall, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -4958,7 +5558,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -4986,7 +5587,6 @@
           },
           "capture": "Centre of the OpenStreetMap feature Northrop Memorial Auditorium (way/255808964): Northrop, which the title names; YouVisit gave it the Northrop Mall stop's point. Where in it the photograph was taken is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5006,7 +5606,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5078,7 +5679,6 @@
           },
           "capture": "YouVisit's tour point for stop 306357, Learning at the Libraries, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5098,7 +5698,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5126,7 +5727,6 @@
           },
           "capture": "YouVisit's tour point for stop 306357, Learning at the Libraries, which is 5 m from the centre of Walter Library (OpenStreetMap way/23014165), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5146,7 +5746,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5181,7 +5782,6 @@
           },
           "capture": "YouVisit's tour point for stop 306357, Learning at the Libraries, which is 5 m from the centre of Walter Library (OpenStreetMap way/23014165), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5201,7 +5801,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5229,7 +5830,6 @@
           },
           "capture": "YouVisit's tour point for stop 306357, Learning at the Libraries, which is 5 m from the centre of Walter Library (OpenStreetMap way/23014165), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5249,7 +5849,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5314,7 +5915,6 @@
           },
           "capture": "YouVisit's tour point for stop 306388, Research & Innovation (feat. Fraser Hall), whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5334,7 +5934,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5363,7 +5964,6 @@
           },
           "capture": "Not placed: YouVisit's tour point for stop 306388, Research & Innovation (feat. Fraser Hall), which this panorama belongs to. It is somewhere in or near that stop.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5384,7 +5984,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5412,7 +6013,6 @@
           },
           "capture": "Centre of the OpenStreetMap feature Education Sciences Building (way/39186402): the Education Sciences Building, which the title names. Where in it the photograph was taken is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5432,7 +6032,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5467,7 +6068,6 @@
           },
           "capture": "Centre of the OpenStreetMap feature Washington Avenue Pedestrian Bridge (way/139902429): the Washington Avenue Bridge's pedestrian deck, which the title names. Where in it the photograph was taken is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5488,7 +6088,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5538,7 +6139,6 @@
           },
           "capture": "YouVisit's tour point for stop 306377, Science & Engineering (feat. Tate Hall), whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5559,7 +6159,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5587,7 +6188,6 @@
           },
           "capture": "Centre of the OpenStreetMap feature Lind Hall (way/39187076): Lind Hall: its description says the Taylor Center is in Lind Hall. Where in it the photograph was taken is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5607,7 +6207,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5640,7 +6241,6 @@
           },
           "capture": "YouVisit's tour point for stop 306358, Culture & Identity, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5660,7 +6260,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5711,7 +6312,6 @@
           },
           "capture": "YouVisit's tour point for stop 306387, Student Services and Support, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5732,7 +6332,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5760,7 +6361,6 @@
           },
           "capture": "YouVisit's tour point for stop 306387, Student Services and Support, which is 5 m from the centre of Robert H. Bruininks Hall (OpenStreetMap way/255808960), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5781,7 +6381,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5809,7 +6410,6 @@
           },
           "capture": "YouVisit's tour point for stop 306387, Student Services and Support, which is 5 m from the centre of Robert H. Bruininks Hall (OpenStreetMap way/255808960), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5829,7 +6429,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5890,7 +6491,6 @@
           },
           "capture": "YouVisit's tour point for stop 306389, Innovative Health Sciences, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5910,7 +6510,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5938,7 +6539,6 @@
           },
           "capture": "YouVisit's tour point for stop 306389, Innovative Health Sciences, which is 23 m from the centre of Health Sciences Education Center (OpenStreetMap way/1220638232), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -5959,7 +6559,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -5987,7 +6588,6 @@
           },
           "capture": "YouVisit's tour point for stop 306389, Innovative Health Sciences, which is 23 m from the centre of Health Sciences Education Center (OpenStreetMap way/1220638232), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6008,7 +6608,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6036,7 +6637,6 @@
           },
           "capture": "YouVisit's tour point for stop 306389, Innovative Health Sciences, which is 23 m from the centre of Health Sciences Education Center (OpenStreetMap way/1220638232), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6057,7 +6657,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6085,7 +6686,6 @@
           },
           "capture": "YouVisit's tour point for stop 306389, Innovative Health Sciences, which is 23 m from the centre of Health Sciences Education Center (OpenStreetMap way/1220638232), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6105,7 +6705,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6148,7 +6749,6 @@
           },
           "capture": "YouVisit's tour point for stop 306390, Coffman Memorial Student Union, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6169,7 +6769,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6197,7 +6798,6 @@
           },
           "capture": "YouVisit's tour point for stop 306390, Coffman Memorial Student Union, which is 16 m from the centre of Coffman Memorial Union (OpenStreetMap way/30056874), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6218,7 +6818,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6246,7 +6847,6 @@
           },
           "capture": "YouVisit's tour point for stop 306390, Coffman Memorial Student Union, which is 16 m from the centre of Coffman Memorial Union (OpenStreetMap way/30056874), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6267,7 +6867,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6309,7 +6910,6 @@
           },
           "capture": "YouVisit's tour point for stop 306391, Getting Around Campus, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6330,7 +6930,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6368,7 +6969,6 @@
           },
           "capture": "YouVisit's tour point for stop 306392, A Global University, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6389,7 +6989,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6417,7 +7018,6 @@
           },
           "capture": "Not placed: YouVisit's tour point for stop 306392, A Global University, which this panorama belongs to. It is somewhere in or near that stop.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6437,7 +7037,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6488,7 +7089,6 @@
           },
           "capture": "YouVisit's tour point for stop 306367, Business at Minnesota Carlson, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6508,7 +7108,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6536,7 +7137,6 @@
           },
           "capture": "Centre of the OpenStreetMap feature Carlson School of Management (way/29124068): the Carlson School of Management building, which the title names. Where in it the photograph was taken is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6556,7 +7156,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6595,7 +7196,6 @@
           },
           "capture": "Centre of the OpenStreetMap feature Rarig Center (way/255808942): Rarig Center, which the title names. Where in it the photograph was taken is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6615,7 +7215,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6659,7 +7260,6 @@
           },
           "capture": "Centre of the OpenStreetMap features Regis Center For Art (West) (way/255808938), Regis Center For Art (East) (way/255808939): the Regis Center for Art, which the title names; the stop's point is at Rarig Center. Where in it the photograph was taken is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6679,7 +7279,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6707,7 +7308,6 @@
           },
           "capture": "Not placed: YouVisit's tour point for stop 306393, Arts on Campus, which this panorama belongs to. It is somewhere in or near that stop.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6727,7 +7327,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6781,7 +7382,6 @@
           },
           "capture": "YouVisit's tour point for stop 306394, Welcome to the Saint Paul Campus, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6802,7 +7402,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6844,7 +7445,6 @@
           },
           "capture": "Centre of the OpenStreetMap feature Department of Horticultural Science Display and Trial Garden (way/158591108): the Horticultural Science Display and Trial Garden, which the title names; the stop's point is at the Student Center, 700 m away. Where in it the photograph was taken is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6865,7 +7465,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6923,7 +7524,6 @@
           },
           "capture": "YouVisit's tour point for stop 306395, College of Food, Agricultural and Natural Resource Sciences (CFANS), whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6943,7 +7543,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -6979,7 +7580,6 @@
           },
           "capture": "Not placed: YouVisit's tour point for stop 306395, College of Food, Agricultural and Natural Resource Sciences (CFANS), which this panorama belongs to. It is somewhere in or near that stop.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -6999,7 +7599,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7050,7 +7651,6 @@
           },
           "capture": "YouVisit's tour point for stop 306396, Design and Discovery, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7071,7 +7671,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7100,7 +7701,6 @@
           },
           "capture": "YouVisit's tour point for stop 306396, Design and Discovery, which is 30 m from the centre of McNeal Hall (OpenStreetMap way/77712291), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7120,7 +7720,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7148,7 +7749,6 @@
           },
           "capture": "YouVisit's tour point for stop 306396, Design and Discovery, which is 30 m from the centre of McNeal Hall (OpenStreetMap way/77712291), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7168,7 +7768,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7219,7 +7820,6 @@
           },
           "capture": "YouVisit's tour point for stop 306397, Biology & The Environment, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7239,7 +7839,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7290,7 +7891,6 @@
           },
           "capture": "YouVisit's tour point for stop 306398, Community Connections, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7310,7 +7910,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7339,7 +7940,6 @@
           },
           "capture": "YouVisit's tour point for stop 306398, Community Connections, which is 4 m from the centre of Bell Museum (OpenStreetMap way/580258639), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7360,7 +7960,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7416,7 +8017,6 @@
           },
           "capture": "YouVisit's tour point for stop 306399, Health & Wellness, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7436,7 +8036,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7465,7 +8066,6 @@
           },
           "capture": "YouVisit's tour point for stop 306399, Health & Wellness, which is 8 m from the centre of University Recreation & Wellness Center (OpenStreetMap way/153915799), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7485,7 +8085,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7514,7 +8115,6 @@
           },
           "capture": "YouVisit's tour point for stop 306399, Health & Wellness, which is 8 m from the centre of University Recreation & Wellness Center (OpenStreetMap way/153915799), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7534,7 +8134,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7576,7 +8177,6 @@
           },
           "capture": "YouVisit's tour point for stop 306400, Cheer for the Gophers! (Athletics), whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7596,7 +8196,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7626,7 +8227,6 @@
           },
           "capture": "YouVisit's interactive map position for stop 306364, Huntington Bank Stadium, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7646,7 +8246,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7688,7 +8289,6 @@
           },
           "capture": "YouVisit's tour point for stop 306402, The Twin Cities (Our Location & Opportunities), whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7708,7 +8308,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7736,7 +8337,6 @@
           },
           "capture": "Centre of the OpenStreetMap feature The Commons (relation/6563703): The Commons park, which the title names; YouVisit gave it the Stone Arch Bridge stop's point. Where in it the photograph was taken is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7756,7 +8356,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7822,7 +8423,6 @@
           },
           "capture": "YouVisit's tour point for stop 306386, Living on Campus, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7843,7 +8443,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7871,7 +8472,6 @@
           },
           "capture": "YouVisit's tour point for stop 306386, Living on Campus, which is 3 m from the centre of Pioneer Hall (OpenStreetMap way/40760464), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7891,7 +8491,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7919,7 +8520,6 @@
           },
           "capture": "Centre of the OpenStreetMap feature 17th Avenue Residence Hall (way/235398391): 17th Avenue Residence Hall, which the title names; the stop's point is at Pioneer Hall, 850 m away. Where in it the photograph was taken is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7939,7 +8539,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -7967,7 +8568,6 @@
           },
           "capture": "YouVisit's tour point for stop 306386, Living on Campus, which is 3 m from the centre of Pioneer Hall (OpenStreetMap way/40760464), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -7987,7 +8587,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -8015,7 +8616,6 @@
           },
           "capture": "YouVisit's tour point for stop 306386, Living on Campus, which is 3 m from the centre of Pioneer Hall (OpenStreetMap way/40760464), where this panorama was taken. Where in the building is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -8035,7 +8635,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -8082,7 +8683,6 @@
           },
           "capture": "YouVisit's tour point for stop 306401, Impact & Value of a UMN Degree, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -8103,7 +8703,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -8132,7 +8733,6 @@
           },
           "capture": "Not placed: YouVisit's tour point for stop 306401, Impact & Value of a UMN Degree, which this panorama belongs to. It is somewhere in or near that stop.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -8152,7 +8752,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -8194,7 +8795,6 @@
           },
           "capture": "YouVisit's tour point for stop 307206, Thank You for Visiting & Learn More, whose main panorama this is. YouVisit's two positions for a stop differ by up to 65 m.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -8214,7 +8814,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -8234,7 +8835,6 @@
           },
           "capture": "Centre of the OpenStreetMap feature McNeal Hall (way/77712291): McNeal Hall, which the title names. YouVisit's map put this retired stop 3.4 km west of McNeal Hall, off the Saint Paul campus. Where in it the photograph was taken is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }
@@ -8254,7 +8854,8 @@
       "imagePose": {
         "headingDeg": 0,
         "pitchDeg": 0,
-        "rollDeg": 0
+        "rollDeg": 0,
+        "aligned": false
       },
       "marker": {
         "mode": "ground-relative",
@@ -8274,7 +8875,6 @@
           },
           "capture": "Centre of the OpenStreetMap features Saint Paul Student Center (way/41424555), Coffey Hall (way/41424574), Magrath Library (way/41424572), McNeal Hall (way/77712291): the Saint Paul campus mall, taken as the middle of the Student Center, Coffey Hall, Magrath Library and McNeal Hall around it. YouVisit's map put this retired stop 3.4 km west, off the Saint Paul campus. Where in it the photograph was taken is not known.",
           "north": {
-            "aligned": false,
             "provenance": "Not aligned: YouVisit's images carry no orientation, so north is unknown."
           }
         }

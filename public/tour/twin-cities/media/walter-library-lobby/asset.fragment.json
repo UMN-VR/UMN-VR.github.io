@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "walter-library-lobby",
-    "revision": "6e3717134877",
+    "revision": "eac5ed4a0de3",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1561939,
         "url": "media/walter-library-lobby/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2931363,
+        "url": "media/walter-library-lobby/immersion-6144.jpg"
       }
     ]
   },

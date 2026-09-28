@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "undergraduate-teaching-labs",
-    "revision": "d4e9d4ca7feb",
+    "revision": "52347b01c0c1",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 825856,
         "url": "media/undergraduate-teaching-labs/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 1616284,
+        "url": "media/undergraduate-teaching-labs/immersion-6144.jpg"
       }
     ]
   },

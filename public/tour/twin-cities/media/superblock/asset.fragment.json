@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "superblock",
-    "revision": "af0a71506199",
+    "revision": "299bc8dba03b",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -76,6 +76,16 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2978620,
         "url": "media/superblock/immersion-4096.jpg"
+      },
+      {
+        "id": "whole-6144",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 6144,
+        "height": 3072,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 5797306,
+        "url": "media/superblock/immersion-6144.jpg"
       }
     ]
   },
