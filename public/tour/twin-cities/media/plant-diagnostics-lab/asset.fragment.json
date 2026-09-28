@@ -1,0 +1,87 @@
+{
+  "asset": {
+    "id": "plant-diagnostics-lab",
+    "revision": "08e585204776",
+    "type": "panorama-image",
+    "colorSpace": "srgb",
+    "alpha": "opaque",
+    "attribution": {
+      "text": "© Regents of the University of Minnesota"
+    },
+    "representations": [
+      {
+        "id": "preview-64",
+        "role": "preview",
+        "projection": "cube",
+        "faceSize": 64,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 10779,
+        "faces": {
+          "px": "media/plant-diagnostics-lab/preview-64/px.jpg",
+          "nx": "media/plant-diagnostics-lab/preview-64/nx.jpg",
+          "py": "media/plant-diagnostics-lab/preview-64/py.jpg",
+          "ny": "media/plant-diagnostics-lab/preview-64/ny.jpg",
+          "pz": "media/plant-diagnostics-lab/preview-64/pz.jpg",
+          "nz": "media/plant-diagnostics-lab/preview-64/nz.jpg"
+        }
+      },
+      {
+        "id": "preview-128",
+        "role": "preview",
+        "projection": "cube",
+        "faceSize": 128,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 28209,
+        "faces": {
+          "px": "media/plant-diagnostics-lab/preview-128/px.jpg",
+          "nx": "media/plant-diagnostics-lab/preview-128/nx.jpg",
+          "py": "media/plant-diagnostics-lab/preview-128/py.jpg",
+          "ny": "media/plant-diagnostics-lab/preview-128/ny.jpg",
+          "pz": "media/plant-diagnostics-lab/preview-128/pz.jpg",
+          "nz": "media/plant-diagnostics-lab/preview-128/nz.jpg"
+        }
+      },
+      {
+        "id": "preview-256",
+        "role": "preview",
+        "projection": "cube",
+        "faceSize": 256,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 89319,
+        "faces": {
+          "px": "media/plant-diagnostics-lab/preview-256/px.jpg",
+          "nx": "media/plant-diagnostics-lab/preview-256/nx.jpg",
+          "py": "media/plant-diagnostics-lab/preview-256/py.jpg",
+          "ny": "media/plant-diagnostics-lab/preview-256/ny.jpg",
+          "pz": "media/plant-diagnostics-lab/preview-256/pz.jpg",
+          "nz": "media/plant-diagnostics-lab/preview-256/nz.jpg"
+        }
+      },
+      {
+        "id": "whole-2048",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 2048,
+        "height": 1024,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 378367,
+        "url": "media/plant-diagnostics-lab/immersion-2048.jpg"
+      },
+      {
+        "id": "whole-4096",
+        "role": "immersion",
+        "projection": "equirectangular",
+        "width": 4096,
+        "height": 2048,
+        "mimeType": "image/jpeg",
+        "encodedBytes": 1242197,
+        "url": "media/plant-diagnostics-lab/immersion-4096.jpg"
+      }
+    ]
+  },
+  "imagePose": {
+    "headingDeg": 0,
+    "pitchDeg": 0,
+    "rollDeg": 0
+  }
+}
