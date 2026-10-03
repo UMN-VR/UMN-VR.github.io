@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "horticulture-display-garden",
-    "revision": "2f8c75f3f8b1",
+    "revision": "a9566f8bdc02",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 4159752,
         "url": "media/horticulture-display-garden/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          84758,
+          321568,
+          1189369,
+          3915082
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 5510777,
+        "url": "media/horticulture-display-garden/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          82486,
+          313534,
+          1159707,
+          3822335
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 5378062,
+        "url": "media/horticulture-display-garden/cube-tiles/"
       }
     ]
   },

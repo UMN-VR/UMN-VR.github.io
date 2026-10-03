@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "plant-diagnostics-lab",
-    "revision": "685bf8f3e1a4",
+    "revision": "bdcaf4360388",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2456229,
         "url": "media/plant-diagnostics-lab/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          54966,
+          198997,
+          714535,
+          2415396
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3383894,
+        "url": "media/plant-diagnostics-lab/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          53019,
+          191518,
+          689180,
+          2347926
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3281643,
+        "url": "media/plant-diagnostics-lab/cube-tiles/"
       }
     ]
   },

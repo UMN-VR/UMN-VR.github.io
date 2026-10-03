@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "superblock-outdoor-area",
-    "revision": "eca00e0595d8",
+    "revision": "5d280bdc58de",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2305221,
         "url": "media/superblock-outdoor-area/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          51411,
+          190953,
+          701103,
+          2347119
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3290586,
+        "url": "media/superblock-outdoor-area/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          50282,
+          187328,
+          687067,
+          2310990
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3235667,
+        "url": "media/superblock-outdoor-area/cube-tiles/"
       }
     ]
   },

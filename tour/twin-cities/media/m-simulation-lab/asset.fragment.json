@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "m-simulation-lab",
-    "revision": "b6fe9f5bc77b",
+    "revision": "9a437194f316",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1445883,
         "url": "media/m-simulation-lab/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          39675,
+          131344,
+          442175,
+          1485555
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2098749,
+        "url": "media/m-simulation-lab/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          38969,
+          129323,
+          435124,
+          1465635
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2069051,
+        "url": "media/m-simulation-lab/cube-tiles/"
       }
     ]
   },

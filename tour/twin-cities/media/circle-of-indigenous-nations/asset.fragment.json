@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "circle-of-indigenous-nations",
-    "revision": "3ae08858c395",
+    "revision": "d0bc63ea250d",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 3131007,
         "url": "media/circle-of-indigenous-nations/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          63349,
+          216836,
+          772972,
+          2775495
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3828652,
+        "url": "media/circle-of-indigenous-nations/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          61244,
+          211034,
+          756790,
+          2753664
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3782732,
+        "url": "media/circle-of-indigenous-nations/cube-tiles/"
       }
     ]
   },

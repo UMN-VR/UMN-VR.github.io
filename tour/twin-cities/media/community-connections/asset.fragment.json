@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "community-connections",
-    "revision": "dfa198a6f931",
+    "revision": "0c6a9ad4bd87",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2165450,
         "url": "media/community-connections/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          56729,
+          192371,
+          656806,
+          2144680
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3050586,
+        "url": "media/community-connections/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          54783,
+          185959,
+          635790,
+          2088124
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2964656,
+        "url": "media/community-connections/cube-tiles/"
       }
     ]
   },

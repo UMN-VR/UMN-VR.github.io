@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "education-sciences-building",
-    "revision": "53c7747a5e90",
+    "revision": "41db3dd0c616",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2351492,
         "url": "media/education-sciences-building/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          62268,
+          208396,
+          695283,
+          2316480
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3282427,
+        "url": "media/education-sciences-building/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          60595,
+          204434,
+          686340,
+          2301032
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3252401,
+        "url": "media/education-sciences-building/cube-tiles/"
       }
     ]
   },

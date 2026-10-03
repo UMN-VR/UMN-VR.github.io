@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "17th-ave-residence-hall",
-    "revision": "7ac2aacafe0c",
+    "revision": "ff4c8488f643",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1942480,
         "url": "media/17th-ave-residence-hall/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          56044,
+          185541,
+          619165,
+          2085156
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2945906,
+        "url": "media/17th-ave-residence-hall/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          54836,
+          182733,
+          615566,
+          2086710
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2939845,
+        "url": "media/17th-ave-residence-hall/cube-tiles/"
       }
     ]
   },

@@ -1,8 +1,8 @@
 {
   "tool": "scripts/prepare-panorama.mjs",
   "toolVersion": "1",
-  "scriptSha256": "2332d89d3a08f8efe1b10ca7120cc744c385e21818522f833fe76d213e7c02a4",
-  "libSha256": "c7eb47f002431486e27ec45f905a56d45ef7024cde0a661c06e8090c714f85ef",
+  "scriptSha256": "b8ec3a3c778151cf4564840108fcc1d3f0b0c04b809f499cbb64de4495aaea32",
+  "libSha256": "4aeac1958ee2ff3417c3b84c785c9ee206fa9fcad2fd1fd782288652ab19d5e4",
   "node": "v26.9.0",
   "source": {
     "kind": "file",
@@ -41,9 +41,18 @@
       "headingDeg": 0,
       "pitchDeg": 0,
       "rollDeg": 0
+    },
+    "tiles": {
+      "kinds": [
+        "eac",
+        "cube"
+      ],
+      "tileSize": 192,
+      "faceSize": 1536,
+      "gutter": 1
     }
   },
-  "processing": "EXIF orientation applied once; colour checked as sRGB and not converted; opaque alpha dropped; resampled in linear light and encoded to sRGB once. Faces follow the format's cube table.",
+  "processing": "EXIF orientation applied once; colour checked as sRGB and not converted; opaque alpha dropped; resampled in linear light and encoded to sRGB once. Faces follow the format's cube table; tiled faces carry a gutter resampled past their edges.",
   "outputs": [
     {
       "path": "preview-64/px.jpg",
@@ -191,6 +200,28 @@
       "sha256": "1ae3042bf71052105fe0d1c4c5d2b398cb395ce784dfeb88ead59e256b0c1f02",
       "width": 6144,
       "height": 3072
+    }
+  ],
+  "tiles": [
+    {
+      "path": "eac-tiles/",
+      "files": 510,
+      "bytes": 5192819,
+      "sha256": "490dbd71db68245458efa1bf97e22628310e584f58f1f4d9a8e838bc4a03e4fd",
+      "faceSize": 1536,
+      "tileSize": 192,
+      "gutter": 1,
+      "warp": "equi-angular"
+    },
+    {
+      "path": "cube-tiles/",
+      "files": 510,
+      "bytes": 5093718,
+      "sha256": "7ff9ad0e2d396df8ae1541f149b19bfb9021d43b70af1e220a7ea805503b5790",
+      "faceSize": 1536,
+      "tileSize": 192,
+      "gutter": 1,
+      "warp": "gnomonic"
     }
   ]
 }

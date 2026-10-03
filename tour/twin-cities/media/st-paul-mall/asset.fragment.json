@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "st-paul-mall",
-    "revision": "fbfcaa8e9bc9",
+    "revision": "e9ae00a53cdb",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 4339979,
         "url": "media/st-paul-mall/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          58132,
+          237817,
+          984414,
+          3720291
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 5000654,
+        "url": "media/st-paul-mall/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          56533,
+          232699,
+          968782,
+          3713112
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 4971126,
+        "url": "media/st-paul-mall/cube-tiles/"
       }
     ]
   },

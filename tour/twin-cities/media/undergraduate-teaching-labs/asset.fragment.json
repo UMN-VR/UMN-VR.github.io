@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "undergraduate-teaching-labs",
-    "revision": "52347b01c0c1",
+    "revision": "460b65501167",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1616284,
         "url": "media/undergraduate-teaching-labs/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          46100,
+          150592,
+          516128,
+          1740879
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2453699,
+        "url": "media/undergraduate-teaching-labs/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          44894,
+          147048,
+          503303,
+          1712325
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2407570,
+        "url": "media/undergraduate-teaching-labs/cube-tiles/"
       }
     ]
   },

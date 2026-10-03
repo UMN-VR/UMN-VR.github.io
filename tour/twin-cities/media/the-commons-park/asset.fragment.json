@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "the-commons-park",
-    "revision": "4e56e237fea7",
+    "revision": "420c64fd5404",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 4414927,
         "url": "media/the-commons-park/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          63216,
+          265444,
+          1083930,
+          3780229
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 5192819,
+        "url": "media/the-commons-park/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          61240,
+          257659,
+          1058256,
+          3716563
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 5093718,
+        "url": "media/the-commons-park/cube-tiles/"
       }
     ]
   },

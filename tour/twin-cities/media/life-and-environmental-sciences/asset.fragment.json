@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "life-and-environmental-sciences",
-    "revision": "981602b387ba",
+    "revision": "1701a4c42667",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2633009,
         "url": "media/life-and-environmental-sciences/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          57472,
+          215557,
+          794457,
+          2652822
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3720308,
+        "url": "media/life-and-environmental-sciences/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          56327,
+          212645,
+          787852,
+          2641452
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3698276,
+        "url": "media/life-and-environmental-sciences/cube-tiles/"
       }
     ]
   },

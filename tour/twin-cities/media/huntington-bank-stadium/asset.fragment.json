@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "huntington-bank-stadium",
-    "revision": "c0078dfde281",
+    "revision": "e071e67d7240",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 3662242,
         "url": "media/huntington-bank-stadium/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          56646,
+          217810,
+          868572,
+          3272731
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 4415759,
+        "url": "media/huntington-bank-stadium/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          55070,
+          211423,
+          850171,
+          3244887
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 4361551,
+        "url": "media/huntington-bank-stadium/cube-tiles/"
       }
     ]
   },

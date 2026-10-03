@@ -2,7 +2,7 @@
   "format": "foss-earth-scene",
   "version": 1,
   "id": "umn-twin-cities",
-  "revision": "fa934cc3003e",
+  "revision": "d8938280e698",
   "title": "University of Minnesota Twin Cities: campus tour",
   "requiredExtensions": [],
   "extensions": {
@@ -17,7 +17,7 @@
   "assets": [
     {
       "id": "northrop-mall",
-      "revision": "250f7c2464ed",
+      "revision": "ac6969926c0b",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -102,12 +102,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 4891360,
           "url": "media/northrop-mall/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            71818,
+            288972,
+            1156242,
+            4218732
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 5735764,
+          "url": "media/northrop-mall/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            70258,
+            285078,
+            1153706,
+            4244747
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 5753789,
+          "url": "media/northrop-mall/cube-tiles/"
         }
       ]
     },
     {
       "id": "folwell-hall",
-      "revision": "8bb553966ba3",
+      "revision": "91f24885aec2",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -192,12 +228,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2452407,
           "url": "media/folwell-hall/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            54674,
+            195557,
+            695599,
+            2408375
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3354205,
+          "url": "media/folwell-hall/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            52821,
+            190812,
+            683644,
+            2378862
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3306139,
+          "url": "media/folwell-hall/cube-tiles/"
         }
       ]
     },
     {
       "id": "inside-northrop-auditorium",
-      "revision": "a56ad025921e",
+      "revision": "7cc5717d8036",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -282,12 +354,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 3028190,
           "url": "media/inside-northrop-auditorium/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            74173,
+            262576,
+            882669,
+            2786756
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4006174,
+          "url": "media/inside-northrop-auditorium/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            73142,
+            258548,
+            869127,
+            2752170
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3952987,
+          "url": "media/inside-northrop-auditorium/cube-tiles/"
         }
       ]
     },
     {
       "id": "walter-library-lobby",
-      "revision": "eac5ed4a0de3",
+      "revision": "7bcdf8d79c35",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -372,12 +480,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2931363,
           "url": "media/walter-library-lobby/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            66803,
+            238614,
+            833621,
+            2792922
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3931960,
+          "url": "media/walter-library-lobby/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            64905,
+            233826,
+            823442,
+            2782808
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3904981,
+          "url": "media/walter-library-lobby/cube-tiles/"
         }
       ]
     },
     {
       "id": "the-toaster-innovation-hub",
-      "revision": "587a4b315088",
+      "revision": "577bc28059e2",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -462,12 +606,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2314586,
           "url": "media/the-toaster-innovation-hub/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            54930,
+            193900,
+            665908,
+            2171996
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3086734,
+          "url": "media/the-toaster-innovation-hub/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            52219,
+            186538,
+            647144,
+            2142232
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3028133,
+          "url": "media/the-toaster-innovation-hub/cube-tiles/"
         }
       ]
     },
     {
       "id": "walter-library-study-space",
-      "revision": "06e78bc300fa",
+      "revision": "1411f60eeb5b",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -552,12 +732,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 4505753,
           "url": "media/walter-library-study-space/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            85666,
+            316190,
+            1145273,
+            3892829
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 5439958,
+          "url": "media/walter-library-study-space/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            83401,
+            310192,
+            1129590,
+            3870217
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 5393400,
+          "url": "media/walter-library-study-space/cube-tiles/"
         }
       ]
     },
     {
       "id": "walter-library-computer-lab",
-      "revision": "2a066927123f",
+      "revision": "b54fe75e1d8d",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -642,12 +858,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2998749,
           "url": "media/walter-library-computer-lab/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            70664,
+            239367,
+            811990,
+            2747230
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3869251,
+          "url": "media/walter-library-computer-lab/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            70048,
+            236376,
+            802657,
+            2728098
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3837179,
+          "url": "media/walter-library-computer-lab/cube-tiles/"
         }
       ]
     },
     {
       "id": "fraser-hall-student-lounge",
-      "revision": "d1cb12a9cbf7",
+      "revision": "36f762dbc5c7",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -732,12 +984,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2368849,
           "url": "media/fraser-hall-student-lounge/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            42317,
+            163889,
+            633812,
+            2192174
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3032192,
+          "url": "media/fraser-hall-student-lounge/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            41671,
+            163652,
+            634136,
+            2198836
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3038295,
+          "url": "media/fraser-hall-student-lounge/cube-tiles/"
         }
       ]
     },
     {
       "id": "undergraduate-teaching-labs",
-      "revision": "52347b01c0c1",
+      "revision": "460b65501167",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -822,12 +1110,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1616284,
           "url": "media/undergraduate-teaching-labs/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            46100,
+            150592,
+            516128,
+            1740879
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2453699,
+          "url": "media/undergraduate-teaching-labs/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            44894,
+            147048,
+            503303,
+            1712325
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2407570,
+          "url": "media/undergraduate-teaching-labs/cube-tiles/"
         }
       ]
     },
     {
       "id": "education-sciences-building",
-      "revision": "53c7747a5e90",
+      "revision": "41db3dd0c616",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -912,12 +1236,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2351492,
           "url": "media/education-sciences-building/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            62268,
+            208396,
+            695283,
+            2316480
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3282427,
+          "url": "media/education-sciences-building/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            60595,
+            204434,
+            686340,
+            2301032
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3252401,
+          "url": "media/education-sciences-building/cube-tiles/"
         }
       ]
     },
     {
       "id": "washington-avenue-walking-bridge",
-      "revision": "850fa75df414",
+      "revision": "a58e6ddb3048",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1002,12 +1362,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1793179,
           "url": "media/washington-avenue-walking-bridge/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            49405,
+            164341,
+            553697,
+            1859685
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2627128,
+          "url": "media/washington-avenue-walking-bridge/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            48040,
+            159988,
+            537135,
+            1809661
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2554824,
+          "url": "media/washington-avenue-walking-bridge/cube-tiles/"
         }
       ]
     },
     {
       "id": "atrium-of-tate-hall",
-      "revision": "057229ae433d",
+      "revision": "8960b740855b",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1092,12 +1488,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2760418,
           "url": "media/atrium-of-tate-hall/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            53837,
+            190791,
+            697381,
+            2440625
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3382634,
+          "url": "media/atrium-of-tate-hall/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            52554,
+            187132,
+            691624,
+            2443482
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3374792,
+          "url": "media/atrium-of-tate-hall/cube-tiles/"
         }
       ]
     },
     {
       "id": "taylor-center",
-      "revision": "0493ccf8e509",
+      "revision": "718a24e7b138",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1182,12 +1614,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 3505879,
           "url": "media/taylor-center/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            87773,
+            302438,
+            1024613,
+            3328306
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4743130,
+          "url": "media/taylor-center/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            86547,
+            299528,
+            1015901,
+            3314950
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4716926,
+          "url": "media/taylor-center/cube-tiles/"
         }
       ]
     },
     {
       "id": "circle-of-indigenous-nations",
-      "revision": "3ae08858c395",
+      "revision": "d0bc63ea250d",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1272,12 +1740,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 3131007,
           "url": "media/circle-of-indigenous-nations/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            63349,
+            216836,
+            772972,
+            2775495
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3828652,
+          "url": "media/circle-of-indigenous-nations/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            61244,
+            211034,
+            756790,
+            2753664
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3782732,
+          "url": "media/circle-of-indigenous-nations/cube-tiles/"
         }
       ]
     },
     {
       "id": "bruininks-hall-student-services",
-      "revision": "b4af1a89d6bc",
+      "revision": "51df22d969f6",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1362,12 +1866,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2151038,
           "url": "media/bruininks-hall-student-services/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            50860,
+            176876,
+            614106,
+            2052009
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2893851,
+          "url": "media/bruininks-hall-student-services/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            49036,
+            172101,
+            600285,
+            2022552
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2843974,
+          "url": "media/bruininks-hall-student-services/cube-tiles/"
         }
       ]
     },
     {
       "id": "center-for-academic-planning-and-exploration",
-      "revision": "01d988880a6b",
+      "revision": "b4b17d041fb1",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1452,12 +1992,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1841008,
           "url": "media/center-for-academic-planning-and-exploration/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            44958,
+            154326,
+            534673,
+            1799197
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2533154,
+          "url": "media/center-for-academic-planning-and-exploration/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            43176,
+            148037,
+            516362,
+            1757070
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2464645,
+          "url": "media/center-for-academic-planning-and-exploration/cube-tiles/"
         }
       ]
     },
     {
       "id": "one-stop-student-services",
-      "revision": "b7d4f437238e",
+      "revision": "b94c6c00cbda",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1542,12 +2118,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2212375,
           "url": "media/one-stop-student-services/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            52833,
+            174909,
+            597428,
+            2097512
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2922682,
+          "url": "media/one-stop-student-services/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            51725,
+            171500,
+            593269,
+            2099070
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2915564,
+          "url": "media/one-stop-student-services/cube-tiles/"
         }
       ]
     },
     {
       "id": "health-sciences-education-center",
-      "revision": "74458d760a67",
+      "revision": "c9c8856fc62b",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1632,12 +2244,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1317044,
           "url": "media/health-sciences-education-center/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            38692,
+            127596,
+            422897,
+            1408020
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1997205,
+          "url": "media/health-sciences-education-center/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            37365,
+            124235,
+            412500,
+            1377431
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 1951531,
+          "url": "media/health-sciences-education-center/cube-tiles/"
         }
       ]
     },
     {
       "id": "nursing-labs-at-the-bentson-center",
-      "revision": "db27e7828a3c",
+      "revision": "cb4aa86ca343",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1722,12 +2370,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1890794,
           "url": "media/nursing-labs-at-the-bentson-center/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            53559,
+            176995,
+            581867,
+            1921571
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2733992,
+          "url": "media/nursing-labs-at-the-bentson-center/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            51731,
+            169795,
+            561183,
+            1870644
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2653353,
+          "url": "media/nursing-labs-at-the-bentson-center/cube-tiles/"
         }
       ]
     },
     {
       "id": "immersive-learning-at-the-bentson-center",
-      "revision": "ae5f1f916230",
+      "revision": "59a4d2a9fea1",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1812,12 +2496,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1411383,
           "url": "media/immersive-learning-at-the-bentson-center/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            44478,
+            147463,
+            485211,
+            1628725
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2305877,
+          "url": "media/immersive-learning-at-the-bentson-center/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            42691,
+            141722,
+            472138,
+            1604562
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2261113,
+          "url": "media/immersive-learning-at-the-bentson-center/cube-tiles/"
         }
       ]
     },
     {
       "id": "health-sciences-education-center-7th-floor",
-      "revision": "ad19a7d63ae4",
+      "revision": "a3d761d7fa26",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1902,12 +2622,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2161572,
           "url": "media/health-sciences-education-center-7th-floor/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            50368,
+            175896,
+            597117,
+            1943600
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2766981,
+          "url": "media/health-sciences-education-center-7th-floor/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            48036,
+            167336,
+            567352,
+            1860259
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2642983,
+          "url": "media/health-sciences-education-center-7th-floor/cube-tiles/"
         }
       ]
     },
     {
       "id": "m-simulation-lab",
-      "revision": "b6fe9f5bc77b",
+      "revision": "9a437194f316",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -1992,12 +2748,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1445883,
           "url": "media/m-simulation-lab/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            39675,
+            131344,
+            442175,
+            1485555
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2098749,
+          "url": "media/m-simulation-lab/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            38969,
+            129323,
+            435124,
+            1465635
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2069051,
+          "url": "media/m-simulation-lab/cube-tiles/"
         }
       ]
     },
     {
       "id": "coffman-memorial-union",
-      "revision": "b94d4cfb8aed",
+      "revision": "435403b7838a",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2082,12 +2874,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1580897,
           "url": "media/coffman-memorial-union/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            57410,
+            187448,
+            573440,
+            1704588
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2522886,
+          "url": "media/coffman-memorial-union/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            55765,
+            182771,
+            561473,
+            1682725
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2482734,
+          "url": "media/coffman-memorial-union/cube-tiles/"
         }
       ]
     },
     {
       "id": "student-union-bookstore",
-      "revision": "ddda4d03f961",
+      "revision": "fc28321a6c15",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2172,12 +3000,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1533826,
           "url": "media/student-union-bookstore/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            42609,
+            146616,
+            487788,
+            1565817
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2242830,
+          "url": "media/student-union-bookstore/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            40774,
+            140846,
+            469962,
+            1523935
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2175517,
+          "url": "media/student-union-bookstore/cube-tiles/"
         }
       ]
     },
     {
       "id": "coffman-memorial-union-2nd-floor",
-      "revision": "ecfbc465e062",
+      "revision": "89085c680222",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2262,12 +3126,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1905476,
           "url": "media/coffman-memorial-union-2nd-floor/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            43833,
+            150406,
+            524720,
+            1848424
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2567383,
+          "url": "media/coffman-memorial-union-2nd-floor/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            41611,
+            143451,
+            501059,
+            1790744
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2476865,
+          "url": "media/coffman-memorial-union-2nd-floor/cube-tiles/"
         }
       ]
     },
     {
       "id": "washington-avenue-bridge-and-the-mississippi-river",
-      "revision": "68fc0293f155",
+      "revision": "b1940456c51c",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2352,12 +3252,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2161101,
           "url": "media/washington-avenue-bridge-and-the-mississippi-river/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            49923,
+            179996,
+            645986,
+            2156854
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3032759,
+          "url": "media/washington-avenue-bridge-and-the-mississippi-river/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            47655,
+            172368,
+            616349,
+            2078327
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2914699,
+          "url": "media/washington-avenue-bridge-and-the-mississippi-river/cube-tiles/"
         }
       ]
     },
     {
       "id": "west-bank-heller-hall",
-      "revision": "4edc56fa0d53",
+      "revision": "6f887aff8c6f",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2442,12 +3378,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2012302,
           "url": "media/west-bank-heller-hall/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            47674,
+            163161,
+            569079,
+            1911189
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2691103,
+          "url": "media/west-bank-heller-hall/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            46223,
+            159221,
+            556252,
+            1874405
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2636101,
+          "url": "media/west-bank-heller-hall/cube-tiles/"
         }
       ]
     },
     {
       "id": "international-student-and-scholar-services-isss",
-      "revision": "7c03a38188dc",
+      "revision": "b55f301ab014",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2532,12 +3504,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1913957,
           "url": "media/international-student-and-scholar-services-isss/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            46569,
+            156883,
+            540251,
+            1801775
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2545478,
+          "url": "media/international-student-and-scholar-services-isss/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            46097,
+            156001,
+            535555,
+            1786046
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2523699,
+          "url": "media/international-student-and-scholar-services-isss/cube-tiles/"
         }
       ]
     },
     {
       "id": "hanson-hall-minnesota-carlson",
-      "revision": "f3b48d186185",
+      "revision": "5fea16c980f3",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2622,12 +3630,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 3358161,
           "url": "media/hanson-hall-minnesota-carlson/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            65122,
+            237395,
+            861348,
+            3031645
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4195510,
+          "url": "media/hanson-hall-minnesota-carlson/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            63883,
+            233322,
+            852682,
+            3025346
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4175233,
+          "url": "media/hanson-hall-minnesota-carlson/cube-tiles/"
         }
       ]
     },
     {
       "id": "carlson-school-of-management",
-      "revision": "4bbd26001286",
+      "revision": "7691e1337e8e",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2712,12 +3756,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2043376,
           "url": "media/carlson-school-of-management/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            52567,
+            174994,
+            581572,
+            1989198
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2798331,
+          "url": "media/carlson-school-of-management/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            51578,
+            172029,
+            576884,
+            1987072
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2787563,
+          "url": "media/carlson-school-of-management/cube-tiles/"
         }
       ]
     },
     {
       "id": "rarig-theater",
-      "revision": "f013f77444cb",
+      "revision": "3f38cf8c446b",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2802,12 +3882,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2629492,
           "url": "media/rarig-theater/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            51484,
+            190058,
+            713152,
+            2414764
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3369458,
+          "url": "media/rarig-theater/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            50740,
+            188039,
+            709111,
+            2409593
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3357483,
+          "url": "media/rarig-theater/cube-tiles/"
         }
       ]
     },
     {
       "id": "regis-center-for-art-gallery",
-      "revision": "efe605daae4e",
+      "revision": "536cd290397c",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2892,12 +4008,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2106792,
           "url": "media/regis-center-for-art-gallery/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            59106,
+            196980,
+            636343,
+            2069882
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2962311,
+          "url": "media/regis-center-for-art-gallery/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            58006,
+            194049,
+            631580,
+            2068180
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2951815,
+          "url": "media/regis-center-for-art-gallery/cube-tiles/"
         }
       ]
     },
     {
       "id": "classroom-studio-spaces",
-      "revision": "20636e424e63",
+      "revision": "8ca522d2ed6e",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -2982,12 +4134,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2616338,
           "url": "media/classroom-studio-spaces/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            70307,
+            235300,
+            776241,
+            2536665
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3618513,
+          "url": "media/classroom-studio-spaces/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            69762,
+            233784,
+            773257,
+            2532004
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3608807,
+          "url": "media/classroom-studio-spaces/cube-tiles/"
         }
       ]
     },
     {
       "id": "saint-paul-campus",
-      "revision": "12109aa3c865",
+      "revision": "29a9e994a36f",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3072,12 +4260,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2729738,
           "url": "media/saint-paul-campus/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            52167,
+            197966,
+            765984,
+            2677415
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3693532,
+          "url": "media/saint-paul-campus/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            51780,
+            196591,
+            763958,
+            2671354
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3683683,
+          "url": "media/saint-paul-campus/cube-tiles/"
         }
       ]
     },
     {
       "id": "horticulture-display-garden",
-      "revision": "2f8c75f3f8b1",
+      "revision": "a9566f8bdc02",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3162,12 +4386,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 4159752,
           "url": "media/horticulture-display-garden/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            84758,
+            321568,
+            1189369,
+            3915082
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 5510777,
+          "url": "media/horticulture-display-garden/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            82486,
+            313534,
+            1159707,
+            3822335
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 5378062,
+          "url": "media/horticulture-display-garden/cube-tiles/"
         }
       ]
     },
     {
       "id": "life-and-environmental-sciences",
-      "revision": "981602b387ba",
+      "revision": "1701a4c42667",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3252,12 +4512,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2633009,
           "url": "media/life-and-environmental-sciences/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            57472,
+            215557,
+            794457,
+            2652822
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3720308,
+          "url": "media/life-and-environmental-sciences/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            56327,
+            212645,
+            787852,
+            2641452
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3698276,
+          "url": "media/life-and-environmental-sciences/cube-tiles/"
         }
       ]
     },
     {
       "id": "plant-diagnostics-lab",
-      "revision": "685bf8f3e1a4",
+      "revision": "bdcaf4360388",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3342,12 +4638,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2456229,
           "url": "media/plant-diagnostics-lab/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            54966,
+            198997,
+            714535,
+            2415396
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3383894,
+          "url": "media/plant-diagnostics-lab/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            53019,
+            191518,
+            689180,
+            2347926
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3281643,
+          "url": "media/plant-diagnostics-lab/cube-tiles/"
         }
       ]
     },
     {
       "id": "mcneal-hall-design-studio",
-      "revision": "fa122dee63f1",
+      "revision": "30f4e36f8a49",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3432,12 +4764,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1552131,
           "url": "media/mcneal-hall-design-studio/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            44851,
+            149349,
+            499154,
+            1617123
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2310477,
+          "url": "media/mcneal-hall-design-studio/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            44005,
+            147177,
+            491875,
+            1601326
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2284383,
+          "url": "media/mcneal-hall-design-studio/cube-tiles/"
         }
       ]
     },
     {
       "id": "letterpress-lab",
-      "revision": "1cc64c7c6098",
+      "revision": "1a3f9132c257",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3522,12 +4890,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1922961,
           "url": "media/letterpress-lab/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            54161,
+            182639,
+            604996,
+            1931926
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2773722,
+          "url": "media/letterpress-lab/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            52322,
+            176222,
+            583413,
+            1880366
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2692323,
+          "url": "media/letterpress-lab/cube-tiles/"
         }
       ]
     },
     {
       "id": "apparel-design-classroom",
-      "revision": "cf429836e86b",
+      "revision": "6e660f581966",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3612,12 +5016,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2480500,
           "url": "media/apparel-design-classroom/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            69974,
+            232877,
+            765245,
+            2459831
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3527927,
+          "url": "media/apparel-design-classroom/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            69393,
+            230249,
+            754354,
+            2439890
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3493886,
+          "url": "media/apparel-design-classroom/cube-tiles/"
         }
       ]
     },
     {
       "id": "cfans",
-      "revision": "632690740ab2",
+      "revision": "e4b8a0c01518",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3702,12 +5142,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 3394504,
           "url": "media/cfans/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            83038,
+            308946,
+            1081016,
+            3370454
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4843454,
+          "url": "media/cfans/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            81850,
+            305889,
+            1068838,
+            3336330
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4792907,
+          "url": "media/cfans/cube-tiles/"
         }
       ]
     },
     {
       "id": "community-connections",
-      "revision": "dfa198a6f931",
+      "revision": "0c6a9ad4bd87",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3792,12 +5268,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2165450,
           "url": "media/community-connections/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            56729,
+            192371,
+            656806,
+            2144680
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3050586,
+          "url": "media/community-connections/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            54783,
+            185959,
+            635790,
+            2088124
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2964656,
+          "url": "media/community-connections/cube-tiles/"
         }
       ]
     },
     {
       "id": "bell-museum-planetarium",
-      "revision": "807e845e2097",
+      "revision": "0b8423469fb7",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3882,12 +5394,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2133540,
           "url": "media/bell-museum-planetarium/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            48118,
+            173603,
+            614696,
+            2014529
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2850946,
+          "url": "media/bell-museum-planetarium/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            48068,
+            172630,
+            609793,
+            2002506
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2832997,
+          "url": "media/bell-museum-planetarium/cube-tiles/"
         }
       ]
     },
     {
       "id": "recreation-and-wellness-center",
-      "revision": "2f551cd5a8fa",
+      "revision": "dd094e93622d",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -3972,12 +5520,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2003156,
           "url": "media/recreation-and-wellness-center/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            52973,
+            185119,
+            631625,
+            2044576
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2914293,
+          "url": "media/recreation-and-wellness-center/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            52029,
+            182071,
+            620537,
+            2013048
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2867685,
+          "url": "media/recreation-and-wellness-center/cube-tiles/"
         }
       ]
     },
     {
       "id": "recwell-indoor-track",
-      "revision": "cdc3b568eb71",
+      "revision": "144f00859cdf",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4062,12 +5646,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 4626109,
           "url": "media/recwell-indoor-track/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            72158,
+            282823,
+            1096162,
+            3936415
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 5387558,
+          "url": "media/recwell-indoor-track/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            70980,
+            279957,
+            1092632,
+            3951311
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 5394880,
+          "url": "media/recwell-indoor-track/cube-tiles/"
         }
       ]
     },
     {
       "id": "recwell-lobby",
-      "revision": "a11ace66529c",
+      "revision": "0587c6571b9e",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4152,12 +5772,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2503608,
           "url": "media/recwell-lobby/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            54813,
+            197598,
+            706209,
+            2443808
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3402428,
+          "url": "media/recwell-lobby/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            52512,
+            191031,
+            684894,
+            2396639
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3325076,
+          "url": "media/recwell-lobby/cube-tiles/"
         }
       ]
     },
     {
       "id": "golden-gopher-spirit-athletics",
-      "revision": "a063d5177ff4",
+      "revision": "f05d816d4cd5",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4242,12 +5898,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2203492,
           "url": "media/golden-gopher-spirit-athletics/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            47602,
+            176643,
+            655350,
+            2221038
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3100633,
+          "url": "media/golden-gopher-spirit-athletics/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            46085,
+            172175,
+            643264,
+            2195236
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3056760,
+          "url": "media/golden-gopher-spirit-athletics/cube-tiles/"
         }
       ]
     },
     {
       "id": "huntington-bank-stadium",
-      "revision": "c0078dfde281",
+      "revision": "e071e67d7240",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4332,12 +6024,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 3662242,
           "url": "media/huntington-bank-stadium/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            56646,
+            217810,
+            868572,
+            3272731
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4415759,
+          "url": "media/huntington-bank-stadium/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            55070,
+            211423,
+            850171,
+            3244887
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4361551,
+          "url": "media/huntington-bank-stadium/cube-tiles/"
         }
       ]
     },
     {
       "id": "stone-arch-bridge",
-      "revision": "8e14dea5f693",
+      "revision": "577f9334019b",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4422,12 +6150,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2966591,
           "url": "media/stone-arch-bridge/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            57258,
+            215618,
+            800079,
+            2706520
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3779475,
+          "url": "media/stone-arch-bridge/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            55607,
+            208756,
+            774679,
+            2631566
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3670608,
+          "url": "media/stone-arch-bridge/cube-tiles/"
         }
       ]
     },
     {
       "id": "the-commons-park",
-      "revision": "4e56e237fea7",
+      "revision": "420c64fd5404",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4512,12 +6276,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 4414927,
           "url": "media/the-commons-park/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            63216,
+            265444,
+            1083930,
+            3780229
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 5192819,
+          "url": "media/the-commons-park/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            61240,
+            257659,
+            1058256,
+            3716563
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 5093718,
+          "url": "media/the-commons-park/cube-tiles/"
         }
       ]
     },
     {
       "id": "residence-life-and-dining",
-      "revision": "5ba06f983dec",
+      "revision": "d3b25ed4e26e",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4602,12 +6402,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2029351,
           "url": "media/residence-life-and-dining/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            46147,
+            167811,
+            611550,
+            2075449
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2900957,
+          "url": "media/residence-life-and-dining/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            44501,
+            162473,
+            591337,
+            2023810
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2822121,
+          "url": "media/residence-life-and-dining/cube-tiles/"
         }
       ]
     },
     {
       "id": "superblock",
-      "revision": "299bc8dba03b",
+      "revision": "3b17cbc95b62",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4692,12 +6528,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 5797306,
           "url": "media/superblock/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            85487,
+            351471,
+            1385342,
+            4728508
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 6550808,
+          "url": "media/superblock/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            82642,
+            341965,
+            1357132,
+            4659317
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 6441056,
+          "url": "media/superblock/cube-tiles/"
         }
       ]
     },
     {
       "id": "17th-ave-residence-hall",
-      "revision": "7ac2aacafe0c",
+      "revision": "ff4c8488f643",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4782,12 +6654,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1942480,
           "url": "media/17th-ave-residence-hall/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            56044,
+            185541,
+            619165,
+            2085156
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2945906,
+          "url": "media/17th-ave-residence-hall/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            54836,
+            182733,
+            615566,
+            2086710
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2939845,
+          "url": "media/17th-ave-residence-hall/cube-tiles/"
         }
       ]
     },
     {
       "id": "pioneer-hall-lobby",
-      "revision": "351bf8034814",
+      "revision": "2b70d0894a7d",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4872,12 +6780,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 1831770,
           "url": "media/pioneer-hall-lobby/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            51392,
+            170547,
+            565042,
+            1832147
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2619128,
+          "url": "media/pioneer-hall-lobby/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            50386,
+            167618,
+            556344,
+            1814375
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 2588723,
+          "url": "media/pioneer-hall-lobby/cube-tiles/"
         }
       ]
     },
     {
       "id": "superblock-outdoor-area",
-      "revision": "eca00e0595d8",
+      "revision": "5d280bdc58de",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -4962,12 +6906,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2305221,
           "url": "media/superblock-outdoor-area/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            51411,
+            190953,
+            701103,
+            2347119
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3290586,
+          "url": "media/superblock-outdoor-area/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            50282,
+            187328,
+            687067,
+            2310990
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3235667,
+          "url": "media/superblock-outdoor-area/cube-tiles/"
         }
       ]
     },
     {
       "id": "impact-and-value-of-a-umn-degree",
-      "revision": "9498f8c6038f",
+      "revision": "82e2969ae714",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -5052,12 +7032,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2712462,
           "url": "media/impact-and-value-of-a-umn-degree/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            58257,
+            209121,
+            762640,
+            2508484
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3538502,
+          "url": "media/impact-and-value-of-a-umn-degree/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            57702,
+            209191,
+            761873,
+            2505243
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3534009,
+          "url": "media/impact-and-value-of-a-umn-degree/cube-tiles/"
         }
       ]
     },
     {
       "id": "wall-of-discovery-scholars-walk",
-      "revision": "119e905fece7",
+      "revision": "8ebff6bb3d82",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -5142,12 +7158,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 3294936,
           "url": "media/wall-of-discovery-scholars-walk/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            71427,
+            258857,
+            908828,
+            2979222
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4218334,
+          "url": "media/wall-of-discovery-scholars-walk/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            70771,
+            257111,
+            907376,
+            2980530
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4215788,
+          "url": "media/wall-of-discovery-scholars-walk/cube-tiles/"
         }
       ]
     },
     {
       "id": "northrop-auditorium",
-      "revision": "b37b66da0951",
+      "revision": "e183b5df3440",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -5232,12 +7284,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 2488531,
           "url": "media/northrop-auditorium/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            55304,
+            202135,
+            734211,
+            2591711
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3583361,
+          "url": "media/northrop-auditorium/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            53306,
+            195677,
+            716293,
+            2548488
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 3513764,
+          "url": "media/northrop-auditorium/cube-tiles/"
         }
       ]
     },
     {
       "id": "mcneal-hall",
-      "revision": "f97b8112479e",
+      "revision": "907f4e256403",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -5322,12 +7410,48 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 5083857,
           "url": "media/mcneal-hall/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            90609,
+            345044,
+            1303158,
+            4546514
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 6285325,
+          "url": "media/mcneal-hall/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            88886,
+            339641,
+            1290361,
+            4541104
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 6259992,
+          "url": "media/mcneal-hall/cube-tiles/"
         }
       ]
     },
     {
       "id": "st-paul-mall",
-      "revision": "fbfcaa8e9bc9",
+      "revision": "e9ae00a53cdb",
       "type": "panorama-image",
       "colorSpace": "srgb",
       "alpha": "opaque",
@@ -5412,6 +7536,42 @@
           "mimeType": "image/jpeg",
           "encodedBytes": 4339979,
           "url": "media/st-paul-mall/immersion-6144.jpg"
+        },
+        {
+          "id": "eac-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "equi-angular",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            58132,
+            237817,
+            984414,
+            3720291
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 5000654,
+          "url": "media/st-paul-mall/eac-tiles/"
+        },
+        {
+          "id": "cube-tiles",
+          "role": "immersion",
+          "projection": "tiled-cube",
+          "warp": "gnomonic",
+          "faceSize": 1536,
+          "tileSize": 192,
+          "gutter": 1,
+          "levelBytes": [
+            56533,
+            232699,
+            968782,
+            3713112
+          ],
+          "mimeType": "image/jpeg",
+          "encodedBytes": 4971126,
+          "url": "media/st-paul-mall/cube-tiles/"
         }
       ]
     }

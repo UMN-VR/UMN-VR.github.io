@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "fraser-hall-student-lounge",
-    "revision": "d1cb12a9cbf7",
+    "revision": "36f762dbc5c7",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2368849,
         "url": "media/fraser-hall-student-lounge/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          42317,
+          163889,
+          633812,
+          2192174
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3032192,
+        "url": "media/fraser-hall-student-lounge/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          41671,
+          163652,
+          634136,
+          2198836
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3038295,
+        "url": "media/fraser-hall-student-lounge/cube-tiles/"
       }
     ]
   },
