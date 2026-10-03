@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "northrop-mall",
-    "revision": "250f7c2464ed",
+    "revision": "ac6969926c0b",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 4891360,
         "url": "media/northrop-mall/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          71818,
+          288972,
+          1156242,
+          4218732
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 5735764,
+        "url": "media/northrop-mall/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          70258,
+          285078,
+          1153706,
+          4244747
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 5753789,
+        "url": "media/northrop-mall/cube-tiles/"
       }
     ]
   },

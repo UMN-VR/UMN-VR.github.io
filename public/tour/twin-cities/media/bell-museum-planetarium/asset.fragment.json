@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "bell-museum-planetarium",
-    "revision": "807e845e2097",
+    "revision": "0b8423469fb7",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2133540,
         "url": "media/bell-museum-planetarium/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          48118,
+          173603,
+          614696,
+          2014529
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2850946,
+        "url": "media/bell-museum-planetarium/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          48068,
+          172630,
+          609793,
+          2002506
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2832997,
+        "url": "media/bell-museum-planetarium/cube-tiles/"
       }
     ]
   },

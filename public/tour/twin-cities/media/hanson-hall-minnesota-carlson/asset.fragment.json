@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "hanson-hall-minnesota-carlson",
-    "revision": "f3b48d186185",
+    "revision": "5fea16c980f3",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 3358161,
         "url": "media/hanson-hall-minnesota-carlson/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          65122,
+          237395,
+          861348,
+          3031645
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 4195510,
+        "url": "media/hanson-hall-minnesota-carlson/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          63883,
+          233322,
+          852682,
+          3025346
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 4175233,
+        "url": "media/hanson-hall-minnesota-carlson/cube-tiles/"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "saint-paul-campus",
-    "revision": "12109aa3c865",
+    "revision": "29a9e994a36f",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2729738,
         "url": "media/saint-paul-campus/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          52167,
+          197966,
+          765984,
+          2677415
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3693532,
+        "url": "media/saint-paul-campus/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          51780,
+          196591,
+          763958,
+          2671354
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3683683,
+        "url": "media/saint-paul-campus/cube-tiles/"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "cfans",
-    "revision": "632690740ab2",
+    "revision": "e4b8a0c01518",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 3394504,
         "url": "media/cfans/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          83038,
+          308946,
+          1081016,
+          3370454
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 4843454,
+        "url": "media/cfans/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          81850,
+          305889,
+          1068838,
+          3336330
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 4792907,
+        "url": "media/cfans/cube-tiles/"
       }
     ]
   },

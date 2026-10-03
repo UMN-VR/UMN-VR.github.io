@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "wall-of-discovery-scholars-walk",
-    "revision": "119e905fece7",
+    "revision": "8ebff6bb3d82",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 3294936,
         "url": "media/wall-of-discovery-scholars-walk/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          71427,
+          258857,
+          908828,
+          2979222
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 4218334,
+        "url": "media/wall-of-discovery-scholars-walk/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          70771,
+          257111,
+          907376,
+          2980530
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 4215788,
+        "url": "media/wall-of-discovery-scholars-walk/cube-tiles/"
       }
     ]
   },

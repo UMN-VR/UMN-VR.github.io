@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "immersive-learning-at-the-bentson-center",
-    "revision": "ae5f1f916230",
+    "revision": "59a4d2a9fea1",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1411383,
         "url": "media/immersive-learning-at-the-bentson-center/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          44478,
+          147463,
+          485211,
+          1628725
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2305877,
+        "url": "media/immersive-learning-at-the-bentson-center/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          42691,
+          141722,
+          472138,
+          1604562
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2261113,
+        "url": "media/immersive-learning-at-the-bentson-center/cube-tiles/"
       }
     ]
   },

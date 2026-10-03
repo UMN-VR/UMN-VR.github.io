@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "west-bank-heller-hall",
-    "revision": "4edc56fa0d53",
+    "revision": "6f887aff8c6f",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2012302,
         "url": "media/west-bank-heller-hall/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          47674,
+          163161,
+          569079,
+          1911189
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2691103,
+        "url": "media/west-bank-heller-hall/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          46223,
+          159221,
+          556252,
+          1874405
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2636101,
+        "url": "media/west-bank-heller-hall/cube-tiles/"
       }
     ]
   },

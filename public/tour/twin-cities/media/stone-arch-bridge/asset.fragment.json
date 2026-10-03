@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "stone-arch-bridge",
-    "revision": "8e14dea5f693",
+    "revision": "577f9334019b",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2966591,
         "url": "media/stone-arch-bridge/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          57258,
+          215618,
+          800079,
+          2706520
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3779475,
+        "url": "media/stone-arch-bridge/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          55607,
+          208756,
+          774679,
+          2631566
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3670608,
+        "url": "media/stone-arch-bridge/cube-tiles/"
       }
     ]
   },

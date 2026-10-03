@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "center-for-academic-planning-and-exploration",
-    "revision": "01d988880a6b",
+    "revision": "b4b17d041fb1",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1841008,
         "url": "media/center-for-academic-planning-and-exploration/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          44958,
+          154326,
+          534673,
+          1799197
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2533154,
+        "url": "media/center-for-academic-planning-and-exploration/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          43176,
+          148037,
+          516362,
+          1757070
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2464645,
+        "url": "media/center-for-academic-planning-and-exploration/cube-tiles/"
       }
     ]
   },

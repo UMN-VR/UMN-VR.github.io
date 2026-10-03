@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "residence-life-and-dining",
-    "revision": "5ba06f983dec",
+    "revision": "d3b25ed4e26e",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2029351,
         "url": "media/residence-life-and-dining/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          46147,
+          167811,
+          611550,
+          2075449
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2900957,
+        "url": "media/residence-life-and-dining/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          44501,
+          162473,
+          591337,
+          2023810
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2822121,
+        "url": "media/residence-life-and-dining/cube-tiles/"
       }
     ]
   },

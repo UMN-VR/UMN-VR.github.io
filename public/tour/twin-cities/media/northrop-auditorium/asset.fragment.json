@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "northrop-auditorium",
-    "revision": "b37b66da0951",
+    "revision": "e183b5df3440",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2488531,
         "url": "media/northrop-auditorium/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          55304,
+          202135,
+          734211,
+          2591711
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3583361,
+        "url": "media/northrop-auditorium/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          53306,
+          195677,
+          716293,
+          2548488
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3513764,
+        "url": "media/northrop-auditorium/cube-tiles/"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "taylor-center",
-    "revision": "0493ccf8e509",
+    "revision": "718a24e7b138",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 3505879,
         "url": "media/taylor-center/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          87773,
+          302438,
+          1024613,
+          3328306
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 4743130,
+        "url": "media/taylor-center/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          86547,
+          299528,
+          1015901,
+          3314950
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 4716926,
+        "url": "media/taylor-center/cube-tiles/"
       }
     ]
   },

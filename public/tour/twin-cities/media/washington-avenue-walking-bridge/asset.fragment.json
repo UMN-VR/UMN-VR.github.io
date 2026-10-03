@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "washington-avenue-walking-bridge",
-    "revision": "850fa75df414",
+    "revision": "a58e6ddb3048",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1793179,
         "url": "media/washington-avenue-walking-bridge/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          49405,
+          164341,
+          553697,
+          1859685
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2627128,
+        "url": "media/washington-avenue-walking-bridge/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          48040,
+          159988,
+          537135,
+          1809661
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2554824,
+        "url": "media/washington-avenue-walking-bridge/cube-tiles/"
       }
     ]
   },

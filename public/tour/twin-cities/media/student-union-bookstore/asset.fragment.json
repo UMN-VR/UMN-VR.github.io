@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "student-union-bookstore",
-    "revision": "ddda4d03f961",
+    "revision": "fc28321a6c15",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1533826,
         "url": "media/student-union-bookstore/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          42609,
+          146616,
+          487788,
+          1565817
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2242830,
+        "url": "media/student-union-bookstore/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          40774,
+          140846,
+          469962,
+          1523935
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2175517,
+        "url": "media/student-union-bookstore/cube-tiles/"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "international-student-and-scholar-services-isss",
-    "revision": "7c03a38188dc",
+    "revision": "b55f301ab014",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1913957,
         "url": "media/international-student-and-scholar-services-isss/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          46569,
+          156883,
+          540251,
+          1801775
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2545478,
+        "url": "media/international-student-and-scholar-services-isss/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          46097,
+          156001,
+          535555,
+          1786046
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2523699,
+        "url": "media/international-student-and-scholar-services-isss/cube-tiles/"
       }
     ]
   },

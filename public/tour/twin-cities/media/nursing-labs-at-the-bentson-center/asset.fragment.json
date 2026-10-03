@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "nursing-labs-at-the-bentson-center",
-    "revision": "db27e7828a3c",
+    "revision": "cb4aa86ca343",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1890794,
         "url": "media/nursing-labs-at-the-bentson-center/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          53559,
+          176995,
+          581867,
+          1921571
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2733992,
+        "url": "media/nursing-labs-at-the-bentson-center/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          51731,
+          169795,
+          561183,
+          1870644
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2653353,
+        "url": "media/nursing-labs-at-the-bentson-center/cube-tiles/"
       }
     ]
   },

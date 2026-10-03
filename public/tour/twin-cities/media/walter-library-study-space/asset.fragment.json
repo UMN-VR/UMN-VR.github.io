@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "walter-library-study-space",
-    "revision": "06e78bc300fa",
+    "revision": "1411f60eeb5b",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 4505753,
         "url": "media/walter-library-study-space/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          85666,
+          316190,
+          1145273,
+          3892829
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 5439958,
+        "url": "media/walter-library-study-space/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          83401,
+          310192,
+          1129590,
+          3870217
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 5393400,
+        "url": "media/walter-library-study-space/cube-tiles/"
       }
     ]
   },

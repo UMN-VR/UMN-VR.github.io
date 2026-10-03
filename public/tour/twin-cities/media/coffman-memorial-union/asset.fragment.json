@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "coffman-memorial-union",
-    "revision": "b94d4cfb8aed",
+    "revision": "435403b7838a",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 1580897,
         "url": "media/coffman-memorial-union/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          57410,
+          187448,
+          573440,
+          1704588
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2522886,
+        "url": "media/coffman-memorial-union/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          55765,
+          182771,
+          561473,
+          1682725
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 2482734,
+        "url": "media/coffman-memorial-union/cube-tiles/"
       }
     ]
   },

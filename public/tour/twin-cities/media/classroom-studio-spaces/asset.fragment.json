@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "classroom-studio-spaces",
-    "revision": "20636e424e63",
+    "revision": "8ca522d2ed6e",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2616338,
         "url": "media/classroom-studio-spaces/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          70307,
+          235300,
+          776241,
+          2536665
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3618513,
+        "url": "media/classroom-studio-spaces/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          69762,
+          233784,
+          773257,
+          2532004
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3608807,
+        "url": "media/classroom-studio-spaces/cube-tiles/"
       }
     ]
   },

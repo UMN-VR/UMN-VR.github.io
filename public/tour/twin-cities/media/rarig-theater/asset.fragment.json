@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "rarig-theater",
-    "revision": "f013f77444cb",
+    "revision": "3f38cf8c446b",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2629492,
         "url": "media/rarig-theater/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          51484,
+          190058,
+          713152,
+          2414764
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3369458,
+        "url": "media/rarig-theater/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          50740,
+          188039,
+          709111,
+          2409593
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3357483,
+        "url": "media/rarig-theater/cube-tiles/"
       }
     ]
   },

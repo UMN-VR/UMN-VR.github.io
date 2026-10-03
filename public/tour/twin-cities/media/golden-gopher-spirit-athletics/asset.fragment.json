@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "golden-gopher-spirit-athletics",
-    "revision": "a063d5177ff4",
+    "revision": "f05d816d4cd5",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2203492,
         "url": "media/golden-gopher-spirit-athletics/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          47602,
+          176643,
+          655350,
+          2221038
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3100633,
+        "url": "media/golden-gopher-spirit-athletics/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          46085,
+          172175,
+          643264,
+          2195236
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3056760,
+        "url": "media/golden-gopher-spirit-athletics/cube-tiles/"
       }
     ]
   },

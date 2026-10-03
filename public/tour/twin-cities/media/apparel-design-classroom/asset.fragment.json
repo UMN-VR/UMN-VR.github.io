@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "apparel-design-classroom",
-    "revision": "cf429836e86b",
+    "revision": "6e660f581966",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 2480500,
         "url": "media/apparel-design-classroom/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          69974,
+          232877,
+          765245,
+          2459831
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3527927,
+        "url": "media/apparel-design-classroom/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          69393,
+          230249,
+          754354,
+          2439890
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 3493886,
+        "url": "media/apparel-design-classroom/cube-tiles/"
       }
     ]
   },

@@ -1,7 +1,7 @@
 {
   "asset": {
     "id": "recwell-indoor-track",
-    "revision": "cdc3b568eb71",
+    "revision": "144f00859cdf",
     "type": "panorama-image",
     "colorSpace": "srgb",
     "alpha": "opaque",
@@ -86,6 +86,42 @@
         "mimeType": "image/jpeg",
         "encodedBytes": 4626109,
         "url": "media/recwell-indoor-track/immersion-6144.jpg"
+      },
+      {
+        "id": "eac-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "equi-angular",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          72158,
+          282823,
+          1096162,
+          3936415
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 5387558,
+        "url": "media/recwell-indoor-track/eac-tiles/"
+      },
+      {
+        "id": "cube-tiles",
+        "role": "immersion",
+        "projection": "tiled-cube",
+        "warp": "gnomonic",
+        "faceSize": 1536,
+        "tileSize": 192,
+        "gutter": 1,
+        "levelBytes": [
+          70980,
+          279957,
+          1092632,
+          3951311
+        ],
+        "mimeType": "image/jpeg",
+        "encodedBytes": 5394880,
+        "url": "media/recwell-indoor-track/cube-tiles/"
       }
     ]
   },
