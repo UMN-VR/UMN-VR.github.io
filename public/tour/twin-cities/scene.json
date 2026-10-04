@@ -2,7 +2,7 @@
   "format": "foss-earth-scene",
   "version": 1,
   "id": "umn-twin-cities",
-  "revision": "1f3e62bbd87a",
+  "revision": "4b89d4e2af09",
   "title": "University of Minnesota Twin Cities: campus tour",
   "requiredExtensions": [],
   "extensions": {
@@ -12,6 +12,19 @@
       "placements": "tools/twin-cities/placements.json",
       "positions": "Capture positions are approximate. They come from YouVisit's one point per stop, or from the centre of the building a panorama shows; each panorama says which. Building centres are from OpenStreetMap, © OpenStreetMap contributors, ODbL 1.0.",
       "north": "0 of 60 panoramas have north set; the others face an arbitrary direction."
+    },
+    "foss-earth.preview-sheets": {
+      "sheets": [
+        {
+          "id": "previews-64",
+          "revision": "e2bebc5b31f1",
+          "mimeType": "image/jpeg",
+          "width": 1536,
+          "height": 960,
+          "encodedBytes": 455974,
+          "url": "media/previews-64.jpg"
+        }
+      ]
     }
   },
   "assets": [
@@ -40,10 +53,12 @@
             "pz": "media/northrop-mall/preview-64/pz.jpg",
             "nz": "media/northrop-mall/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 0
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 0
+            }
           }
         },
         {
@@ -171,10 +186,12 @@
             "pz": "media/folwell-hall/preview-64/pz.jpg",
             "nz": "media/folwell-hall/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 0
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 0
+            }
           }
         },
         {
@@ -302,10 +319,12 @@
             "pz": "media/inside-northrop-auditorium/preview-64/pz.jpg",
             "nz": "media/inside-northrop-auditorium/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 0
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 0
+            }
           }
         },
         {
@@ -433,10 +452,12 @@
             "pz": "media/walter-library-lobby/preview-64/pz.jpg",
             "nz": "media/walter-library-lobby/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 0
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 0
+            }
           }
         },
         {
@@ -564,10 +585,12 @@
             "pz": "media/the-toaster-innovation-hub/preview-64/pz.jpg",
             "nz": "media/the-toaster-innovation-hub/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 64
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 64
+            }
           }
         },
         {
@@ -695,10 +718,12 @@
             "pz": "media/walter-library-study-space/preview-64/pz.jpg",
             "nz": "media/walter-library-study-space/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 64
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 64
+            }
           }
         },
         {
@@ -826,10 +851,12 @@
             "pz": "media/walter-library-computer-lab/preview-64/pz.jpg",
             "nz": "media/walter-library-computer-lab/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 64
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 64
+            }
           }
         },
         {
@@ -957,10 +984,12 @@
             "pz": "media/fraser-hall-student-lounge/preview-64/pz.jpg",
             "nz": "media/fraser-hall-student-lounge/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 64
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 64
+            }
           }
         },
         {
@@ -1088,10 +1117,12 @@
             "pz": "media/undergraduate-teaching-labs/preview-64/pz.jpg",
             "nz": "media/undergraduate-teaching-labs/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 128
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 128
+            }
           }
         },
         {
@@ -1219,10 +1250,12 @@
             "pz": "media/education-sciences-building/preview-64/pz.jpg",
             "nz": "media/education-sciences-building/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 128
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 128
+            }
           }
         },
         {
@@ -1350,10 +1383,12 @@
             "pz": "media/washington-avenue-walking-bridge/preview-64/pz.jpg",
             "nz": "media/washington-avenue-walking-bridge/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 128
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 128
+            }
           }
         },
         {
@@ -1481,10 +1516,12 @@
             "pz": "media/atrium-of-tate-hall/preview-64/pz.jpg",
             "nz": "media/atrium-of-tate-hall/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 128
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 128
+            }
           }
         },
         {
@@ -1612,10 +1649,12 @@
             "pz": "media/taylor-center/preview-64/pz.jpg",
             "nz": "media/taylor-center/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 192
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 192
+            }
           }
         },
         {
@@ -1743,10 +1782,12 @@
             "pz": "media/circle-of-indigenous-nations/preview-64/pz.jpg",
             "nz": "media/circle-of-indigenous-nations/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 192
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 192
+            }
           }
         },
         {
@@ -1874,10 +1915,12 @@
             "pz": "media/bruininks-hall-student-services/preview-64/pz.jpg",
             "nz": "media/bruininks-hall-student-services/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 192
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 192
+            }
           }
         },
         {
@@ -2005,10 +2048,12 @@
             "pz": "media/center-for-academic-planning-and-exploration/preview-64/pz.jpg",
             "nz": "media/center-for-academic-planning-and-exploration/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 192
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 192
+            }
           }
         },
         {
@@ -2136,10 +2181,12 @@
             "pz": "media/one-stop-student-services/preview-64/pz.jpg",
             "nz": "media/one-stop-student-services/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 256
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 256
+            }
           }
         },
         {
@@ -2267,10 +2314,12 @@
             "pz": "media/health-sciences-education-center/preview-64/pz.jpg",
             "nz": "media/health-sciences-education-center/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 256
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 256
+            }
           }
         },
         {
@@ -2398,10 +2447,12 @@
             "pz": "media/nursing-labs-at-the-bentson-center/preview-64/pz.jpg",
             "nz": "media/nursing-labs-at-the-bentson-center/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 256
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 256
+            }
           }
         },
         {
@@ -2529,10 +2580,12 @@
             "pz": "media/immersive-learning-at-the-bentson-center/preview-64/pz.jpg",
             "nz": "media/immersive-learning-at-the-bentson-center/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 256
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 256
+            }
           }
         },
         {
@@ -2660,10 +2713,12 @@
             "pz": "media/health-sciences-education-center-7th-floor/preview-64/pz.jpg",
             "nz": "media/health-sciences-education-center-7th-floor/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 320
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 320
+            }
           }
         },
         {
@@ -2791,10 +2846,12 @@
             "pz": "media/m-simulation-lab/preview-64/pz.jpg",
             "nz": "media/m-simulation-lab/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 320
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 320
+            }
           }
         },
         {
@@ -2922,10 +2979,12 @@
             "pz": "media/coffman-memorial-union/preview-64/pz.jpg",
             "nz": "media/coffman-memorial-union/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 320
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 320
+            }
           }
         },
         {
@@ -3053,10 +3112,12 @@
             "pz": "media/student-union-bookstore/preview-64/pz.jpg",
             "nz": "media/student-union-bookstore/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 320
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 320
+            }
           }
         },
         {
@@ -3184,10 +3245,12 @@
             "pz": "media/coffman-memorial-union-2nd-floor/preview-64/pz.jpg",
             "nz": "media/coffman-memorial-union-2nd-floor/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 384
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 384
+            }
           }
         },
         {
@@ -3315,10 +3378,12 @@
             "pz": "media/washington-avenue-bridge-and-the-mississippi-river/preview-64/pz.jpg",
             "nz": "media/washington-avenue-bridge-and-the-mississippi-river/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 384
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 384
+            }
           }
         },
         {
@@ -3446,10 +3511,12 @@
             "pz": "media/west-bank-heller-hall/preview-64/pz.jpg",
             "nz": "media/west-bank-heller-hall/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 384
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 384
+            }
           }
         },
         {
@@ -3577,10 +3644,12 @@
             "pz": "media/international-student-and-scholar-services-isss/preview-64/pz.jpg",
             "nz": "media/international-student-and-scholar-services-isss/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 384
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 384
+            }
           }
         },
         {
@@ -3708,10 +3777,12 @@
             "pz": "media/hanson-hall-minnesota-carlson/preview-64/pz.jpg",
             "nz": "media/hanson-hall-minnesota-carlson/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 448
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 448
+            }
           }
         },
         {
@@ -3839,10 +3910,12 @@
             "pz": "media/carlson-school-of-management/preview-64/pz.jpg",
             "nz": "media/carlson-school-of-management/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 448
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 448
+            }
           }
         },
         {
@@ -3970,10 +4043,12 @@
             "pz": "media/rarig-theater/preview-64/pz.jpg",
             "nz": "media/rarig-theater/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 448
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 448
+            }
           }
         },
         {
@@ -4101,10 +4176,12 @@
             "pz": "media/regis-center-for-art-gallery/preview-64/pz.jpg",
             "nz": "media/regis-center-for-art-gallery/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 448
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 448
+            }
           }
         },
         {
@@ -4232,10 +4309,12 @@
             "pz": "media/classroom-studio-spaces/preview-64/pz.jpg",
             "nz": "media/classroom-studio-spaces/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 512
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 512
+            }
           }
         },
         {
@@ -4363,10 +4442,12 @@
             "pz": "media/saint-paul-campus/preview-64/pz.jpg",
             "nz": "media/saint-paul-campus/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 512
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 512
+            }
           }
         },
         {
@@ -4494,10 +4575,12 @@
             "pz": "media/horticulture-display-garden/preview-64/pz.jpg",
             "nz": "media/horticulture-display-garden/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 512
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 512
+            }
           }
         },
         {
@@ -4625,10 +4708,12 @@
             "pz": "media/life-and-environmental-sciences/preview-64/pz.jpg",
             "nz": "media/life-and-environmental-sciences/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 512
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 512
+            }
           }
         },
         {
@@ -4756,10 +4841,12 @@
             "pz": "media/plant-diagnostics-lab/preview-64/pz.jpg",
             "nz": "media/plant-diagnostics-lab/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 576
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 576
+            }
           }
         },
         {
@@ -4887,10 +4974,12 @@
             "pz": "media/mcneal-hall-design-studio/preview-64/pz.jpg",
             "nz": "media/mcneal-hall-design-studio/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 576
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 576
+            }
           }
         },
         {
@@ -5018,10 +5107,12 @@
             "pz": "media/letterpress-lab/preview-64/pz.jpg",
             "nz": "media/letterpress-lab/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 576
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 576
+            }
           }
         },
         {
@@ -5149,10 +5240,12 @@
             "pz": "media/apparel-design-classroom/preview-64/pz.jpg",
             "nz": "media/apparel-design-classroom/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 576
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 576
+            }
           }
         },
         {
@@ -5280,10 +5373,12 @@
             "pz": "media/cfans/preview-64/pz.jpg",
             "nz": "media/cfans/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 640
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 640
+            }
           }
         },
         {
@@ -5411,10 +5506,12 @@
             "pz": "media/community-connections/preview-64/pz.jpg",
             "nz": "media/community-connections/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 640
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 640
+            }
           }
         },
         {
@@ -5542,10 +5639,12 @@
             "pz": "media/bell-museum-planetarium/preview-64/pz.jpg",
             "nz": "media/bell-museum-planetarium/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 640
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 640
+            }
           }
         },
         {
@@ -5673,10 +5772,12 @@
             "pz": "media/recreation-and-wellness-center/preview-64/pz.jpg",
             "nz": "media/recreation-and-wellness-center/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 640
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 640
+            }
           }
         },
         {
@@ -5804,10 +5905,12 @@
             "pz": "media/recwell-indoor-track/preview-64/pz.jpg",
             "nz": "media/recwell-indoor-track/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 704
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 704
+            }
           }
         },
         {
@@ -5935,10 +6038,12 @@
             "pz": "media/recwell-lobby/preview-64/pz.jpg",
             "nz": "media/recwell-lobby/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 704
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 704
+            }
           }
         },
         {
@@ -6066,10 +6171,12 @@
             "pz": "media/golden-gopher-spirit-athletics/preview-64/pz.jpg",
             "nz": "media/golden-gopher-spirit-athletics/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 704
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 704
+            }
           }
         },
         {
@@ -6197,10 +6304,12 @@
             "pz": "media/huntington-bank-stadium/preview-64/pz.jpg",
             "nz": "media/huntington-bank-stadium/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 704
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 704
+            }
           }
         },
         {
@@ -6328,10 +6437,12 @@
             "pz": "media/stone-arch-bridge/preview-64/pz.jpg",
             "nz": "media/stone-arch-bridge/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 768
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 768
+            }
           }
         },
         {
@@ -6459,10 +6570,12 @@
             "pz": "media/the-commons-park/preview-64/pz.jpg",
             "nz": "media/the-commons-park/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 768
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 768
+            }
           }
         },
         {
@@ -6590,10 +6703,12 @@
             "pz": "media/residence-life-and-dining/preview-64/pz.jpg",
             "nz": "media/residence-life-and-dining/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 768
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 768
+            }
           }
         },
         {
@@ -6721,10 +6836,12 @@
             "pz": "media/superblock/preview-64/pz.jpg",
             "nz": "media/superblock/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 768
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 768
+            }
           }
         },
         {
@@ -6852,10 +6969,12 @@
             "pz": "media/17th-ave-residence-hall/preview-64/pz.jpg",
             "nz": "media/17th-ave-residence-hall/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 832
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 832
+            }
           }
         },
         {
@@ -6983,10 +7102,12 @@
             "pz": "media/pioneer-hall-lobby/preview-64/pz.jpg",
             "nz": "media/pioneer-hall-lobby/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 832
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 832
+            }
           }
         },
         {
@@ -7114,10 +7235,12 @@
             "pz": "media/superblock-outdoor-area/preview-64/pz.jpg",
             "nz": "media/superblock-outdoor-area/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 832
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 832
+            }
           }
         },
         {
@@ -7245,10 +7368,12 @@
             "pz": "media/impact-and-value-of-a-umn-degree/preview-64/pz.jpg",
             "nz": "media/impact-and-value-of-a-umn-degree/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 832
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 832
+            }
           }
         },
         {
@@ -7376,10 +7501,12 @@
             "pz": "media/wall-of-discovery-scholars-walk/preview-64/pz.jpg",
             "nz": "media/wall-of-discovery-scholars-walk/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 0,
-            "y": 896
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 0,
+              "y": 896
+            }
           }
         },
         {
@@ -7507,10 +7634,12 @@
             "pz": "media/northrop-auditorium/preview-64/pz.jpg",
             "nz": "media/northrop-auditorium/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 384,
-            "y": 896
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 384,
+              "y": 896
+            }
           }
         },
         {
@@ -7638,10 +7767,12 @@
             "pz": "media/mcneal-hall/preview-64/pz.jpg",
             "nz": "media/mcneal-hall/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 768,
-            "y": 896
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 768,
+              "y": 896
+            }
           }
         },
         {
@@ -7769,10 +7900,12 @@
             "pz": "media/st-paul-mall/preview-64/pz.jpg",
             "nz": "media/st-paul-mall/preview-64/nz.jpg"
           },
-          "sheet": {
-            "id": "previews-64",
-            "x": 1152,
-            "y": 896
+          "extensions": {
+            "foss-earth.preview-sheets": {
+              "id": "previews-64",
+              "x": 1152,
+              "y": 896
+            }
           }
         },
         {
@@ -7874,17 +8007,6 @@
           "url": "media/st-paul-mall/cube-tiles/"
         }
       ]
-    }
-  ],
-  "sheets": [
-    {
-      "id": "previews-64",
-      "revision": "e2bebc5b31f1",
-      "mimeType": "image/jpeg",
-      "width": 1536,
-      "height": 960,
-      "encodedBytes": 455974,
-      "url": "media/previews-64.jpg"
     }
   ],
   "entities": [
