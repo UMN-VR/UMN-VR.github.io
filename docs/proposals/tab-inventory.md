@@ -48,9 +48,9 @@ extracted. No owner in this campus inventory imports 0sfs.
 | `settings` | Settings | Both | `foss-earth/ui` owns registry, presets, saved records and their presentation; shared app-file/diagnostic services are injected. It is one application-wide view of registered owners, not the owner of all feature parameters or another copy of their state. | [`createGlobeApp.ts:762`](../../../../foss-earth/src/app/createGlobeApp.ts#L762); app services at [`:723`](../../../../foss-earth/src/app/createGlobeApp.ts#L723). |
 | `about` | About | Both | **Dedicated `UMN-VR/about`.** Owns campus About tab composition, project information, links/credits, authored graph metadata and the release-manifest adapter. It consumes the shared `foss-earth/about` viewer. `UMN-VR/tour` retains release assembly and pins and supplies resolved build data without a reverse runtime import. | [`createGlobeApp.ts:738`](../../../../foss-earth/src/app/createGlobeApp.ts#L738); campus build metadata in [`vite.config.ts:80`](../../vite.config.ts#L80). |
 | `bug-report` | Bug report | Both | `foss-earth/ui` composes reports through providers; `UMN-VR/tour` supplies its application identity/report destination. This view combines evidence from several owners rather than owning their implementations. | [`createGlobeApp.ts:733`](../../../../foss-earth/src/app/createGlobeApp.ts#L733). |
-| `scenes` | Scenes | Both | `foss-earth/panorama` owns the generic scene format, loader, viewer and panel. `UMN-VR/tour` owns the offered campus scene, placements and platform import. The optional `UMN-VR/twin-cities-content` owns an independently released media package if adopted. Scenes and the two panorama tabs share one scene/viewer lifecycle. | [`createGlobeApp.ts:799`](../../../../foss-earth/src/app/createGlobeApp.ts#L799); campus scene in [`scenes.ts:8`](../../src/tour/scenes.ts#L8). |
-| `panorama` | `360: <photograph title>` | Panorama | `foss-earth/panorama`, with UMN-owned photographs, captions, credits and links. This is one dynamically titled tab over the active/entering photograph, not a separate implementation or repository per photograph or campus stop. | [`panoramaTabs.ts:213`](../../../../foss-earth/src/shell/panoramaTabs.ts#L213); registered at [`WindowOverlay.tsx:179`](../../../../foss-earth/src/shell/WindowOverlay.tsx#L179). |
-| `panorama-settings` | 360 image settings | Panorama | `foss-earth/panorama`. Looking/levelling, representation, sharpness and image loading budgets govern the same camera/image lifecycle as the active photograph and Scenes tabs. | [`WindowOverlay.tsx:183`](../../../../foss-earth/src/shell/WindowOverlay.tsx#L183); link from the photograph at [`panoramaTabs.ts:202`](../../../../foss-earth/src/shell/panoramaTabs.ts#L202). |
+| `scenes` | Scenes | Both | **Dedicated `foss-earth/scenes`.** Owns the scene format/envelope, placement contracts, navigation orchestration and Scenes tab, consuming `foss-earth/360`, `foss-earth/images` and UI. `UMN-VR/tour` owns its campus scene, concrete placements and platform import. Optional `UMN-VR/twin-cities-content` owns a separately released media package if adopted. | [`createGlobeApp.ts:799`](../../../../foss-earth/src/app/createGlobeApp.ts#L799); campus scene in [`scenes.ts:8`](../../src/tour/scenes.ts#L8). |
+| `panorama` | `360: <photograph title>` | Panorama | **Dedicated `foss-earth/360`.** Owns the active image tab and 360 viewer lifecycle, composing separately packaged image representations. Photographs, captions, credits and links remain UMN-owned. The title changes with the active photograph; it does not imply one repository per photograph or stop. | [`panoramaTabs.ts:213`](../../../../foss-earth/src/shell/panoramaTabs.ts#L213); registered at [`WindowOverlay.tsx:179`](../../../../foss-earth/src/shell/WindowOverlay.tsx#L179). |
+| `panorama-settings` | 360 image settings | Panorama | **Shares `foss-earth/360`.** Looking/levelling, representation and sharpness controls edit the same viewer as the active image tab. Common image budgets/cache belong to `foss-earth/images`; individual representations supply their settings through public contracts. Scenes navigation has its own repository. | [`WindowOverlay.tsx:183`](../../../../foss-earth/src/shell/WindowOverlay.tsx#L183); link from the photograph at [`panoramaTabs.ts:202`](../../../../foss-earth/src/shell/panoramaTabs.ts#L202). |
 
 The active photograph title is calculated from the scene entry. The overlay's
 fallback label `360` is not another tab ID. Photograph metadata stays UMN-owned
@@ -102,8 +102,14 @@ The campus [scene definition](../../src/tour/scenes.ts) and
 [content preparation/import tools](../../tools/twin-cities/README.md) remain
 UMN-owned. The `VITE_TOUR_SCENE_URL` override selects an independently delivered
 campus content release; it transfers neither media ownership nor viewer
-implementation. Generic schema, loader, panorama preparation and checking
-tools belong to `foss-earth/panorama`.
+implementation. `foss-earth/scenes` owns the generic scene schema, loader and
+manifest checks. Campus preparation consumes `foss-earth/360` tooling composed
+from the representation packages: `foss-earth/equirectangular`,
+`foss-earth/cubemap`, `foss-earth/tiled-cubemap` and `foss-earth/preview-sheets`.
+Gnomonic and equi-angular tiled cubemaps are variants of one storage structure,
+so they share `tiled-cubemap`. `foss-earth/images` owns the common image
+contracts, budgets and cache. See the proposed
+[image repository boundaries](../../../../foss-earth/docs/proposals/image-repositories.md).
 
 The campus [build configuration](../../vite.config.ts#L80) currently supplies
 the shared About panel with its repository/version metadata. After extraction,

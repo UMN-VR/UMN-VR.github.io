@@ -17,7 +17,7 @@ without another repository. See the existing
 [content delivery design](../content-delivery.md).
 
 The campus tour consumes FOSS Earth's engine, UI, renderer, toolbar, sky/weather,
-panorama and developer framework, and `UMN-VR/about` for its About tab.
+Scenes, 360 viewer and developer framework, and `UMN-VR/about` for its About tab.
 Renderer owns device/scene/frame
 services; globe engine consumes it without a reverse import. The tour registers
 its own toolbar callbacks and values using shared UI primitives. Generic check/setup tools remain
@@ -26,6 +26,27 @@ documentation or tooling. UMN documentation, research, community guidance and
 the tour's release/workspace manifests remain UMN-owned. The tour supplies its
 own manifest and app-specific Dev contributions; no branded graph data moves
 into the shared viewer.
+
+## Scenes and image representations
+
+`foss-earth/scenes` owns the scene format/envelope, placement contracts,
+navigation orchestration and Scenes tab. It consumes `foss-earth/360`,
+`foss-earth/images` and UI. The campus tour owns its actual scene and placements,
+photographs, captions, credits, links and platform-specific import.
+
+`foss-earth/360` owns the active `360: <photograph title>` tab, 360 image settings
+and viewer lifecycle. It composes four representation repositories:
+`foss-earth/equirectangular`, `foss-earth/cubemap`, `foss-earth/tiled-cubemap`
+and `foss-earth/preview-sheets`. Gnomonic and equi-angular tiled cubemaps remain
+variants in `tiled-cubemap`, sharing one storage structure. Common image
+contracts, budgets and cache belong to `foss-earth/images`.
+
+Campus preparation consumes `foss-earth/360` tooling composed from those
+representations; scene manifest checks come from `foss-earth/scenes`.
+The [image repository proposal](../../../../foss-earth/docs/proposals/image-repositories.md)
+defines these interfaces and the current source-to-repository mapping. These
+are proposed package boundaries; current public FOSS Earth exports remain the
+integration path until extraction.
 
 ## About code and data
 
