@@ -17,7 +17,8 @@ without another repository. See the existing
 [content delivery design](../content-delivery.md).
 
 The campus tour consumes FOSS Earth's engine, UI, renderer, toolbar, sky/weather,
-panorama, About viewer and developer framework. Renderer owns device/scene/frame
+panorama and developer framework, and `UMN-VR/about` for its About tab.
+Renderer owns device/scene/frame
 services; globe engine consumes it without a reverse import. The tour registers
 its own toolbar callbacks and values using shared UI primitives. Generic check/setup tools remain
 FOSS Earth-owned. This application has no dependency on flight code, content,
@@ -25,6 +26,42 @@ documentation or tooling. UMN documentation, research, community guidance and
 the tour's release/workspace manifests remain UMN-owned. The tour supplies its
 own manifest and app-specific Dev contributions; no branded graph data moves
 into the shared viewer.
+
+## About code and data
+
+**`UMN-VR/about` is a proposed repository**, applying the same feature-tab
+boundary as `0sfs/about`. It owns the campus About tab's composition, project
+information, links/credits, authored dependency-graph metadata and the adapter
+that presents the installed tour release. `foss-earth/about` owns the shared
+panel/viewer, graph layout, schema, provenance presentation and validation.
+
+```mermaid
+flowchart LR
+  Tour[UMN-VR/tour] --> CampusAbout[UMN-VR/about]
+  CampusAbout --> SharedAbout[foss-earth/about]
+  SharedAbout --> UI[foss-earth/ui]
+  CampusAbout --> UI
+  Tour -. resolved release manifest .-> CampusAbout
+```
+
+The tour owns release assembly and exact dependency pins. It supplies the
+resolved manifest as data; `UMN-VR/about` does not import the tour runtime to
+discover its dependencies. Authored graph descriptions move to `UMN-VR/about`
+when it is extracted; they remain a proposal until a release manifest confirms
+what is installed. Keeping the viewer shared does not require keeping the
+campus About contribution in the tour repository.
+
+Today there is no separate campus About implementation: FOSS Earth's
+[`aboutPanel.ts`](../../../../foss-earth/src/shell/aboutPanel.ts) builds the
+shared panel, [`createGlobeApp.ts`](../../../../foss-earth/src/app/createGlobeApp.ts#L738)
+constructs it, and [`mountGlobeApp.tsx`](../../../../foss-earth/src/app/mountGlobeApp.tsx#L42)
+mounts it. UMN's [`vite.config.ts`](../../vite.config.ts#L80) supplies its build
+identity and the `builtFrom()` metadata plugin. Extraction adds a host-supplied
+About contribution to that mounting path; shared globe code must never import
+`UMN-VR/about` itself. The prototype files below stay in this checkout until
+the proposed repository is created.
+
+## Editing the graph prototype
 
 The JSON is the application-owned source of truth. The self-contained HTML is
 generated using the shared FOSS Earth template and generator. Code,

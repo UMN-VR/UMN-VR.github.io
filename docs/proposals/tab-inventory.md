@@ -46,7 +46,7 @@ extracted. No owner in this campus inventory imports 0sfs.
 | `controls` | Controls | Both | `foss-earth/engine` input/camera integration plus the existing `Felipegalind0/gamepad-tools` device/binding package. One tab combines these established owners. The campus host supplies its context; it consumes no flight-controls package. | [`createGlobeApp.ts:740`](../../../../foss-earth/src/app/createGlobeApp.ts#L740); controller editor at [`:649`](../../../../foss-earth/src/app/createGlobeApp.ts#L649). |
 | `interface` | Interface | Both | `foss-earth/ui` and `foss-earth/toolbar`, with globe position/search services supplied by the host. Generic widgets/log presentation and bottom-bar layout are distinct responsibilities; neither owner imports every feature whose value it shows. | [`createGlobeApp.ts:752`](../../../../foss-earth/src/app/createGlobeApp.ts#L752). |
 | `settings` | Settings | Both | `foss-earth/ui` owns registry, presets, saved records and their presentation; shared app-file/diagnostic services are injected. It is one application-wide view of registered owners, not the owner of all feature parameters or another copy of their state. | [`createGlobeApp.ts:762`](../../../../foss-earth/src/app/createGlobeApp.ts#L762); app services at [`:723`](../../../../foss-earth/src/app/createGlobeApp.ts#L723). |
-| `about` | About | Both | `foss-earth/about` owns the generic viewer; `UMN-VR/tour` owns campus build identity, provenance and graph/release metadata. One shared viewer displays host-owned data, so a separate campus viewer implementation is unnecessary. | [`createGlobeApp.ts:738`](../../../../foss-earth/src/app/createGlobeApp.ts#L738); campus build metadata in [`vite.config.ts:80`](../../vite.config.ts#L80). |
+| `about` | About | Both | **Dedicated `UMN-VR/about`.** Owns campus About tab composition, project information, links/credits, authored graph metadata and the release-manifest adapter. It consumes the shared `foss-earth/about` viewer. `UMN-VR/tour` retains release assembly and pins and supplies resolved build data without a reverse runtime import. | [`createGlobeApp.ts:738`](../../../../foss-earth/src/app/createGlobeApp.ts#L738); campus build metadata in [`vite.config.ts:80`](../../vite.config.ts#L80). |
 | `bug-report` | Bug report | Both | `foss-earth/ui` composes reports through providers; `UMN-VR/tour` supplies its application identity/report destination. This view combines evidence from several owners rather than owning their implementations. | [`createGlobeApp.ts:733`](../../../../foss-earth/src/app/createGlobeApp.ts#L733). |
 | `scenes` | Scenes | Both | `foss-earth/panorama` owns the generic scene format, loader, viewer and panel. `UMN-VR/tour` owns the offered campus scene, placements and platform import. The optional `UMN-VR/twin-cities-content` owns an independently released media package if adopted. Scenes and the two panorama tabs share one scene/viewer lifecycle. | [`createGlobeApp.ts:799`](../../../../foss-earth/src/app/createGlobeApp.ts#L799); campus scene in [`scenes.ts:8`](../../src/tour/scenes.ts#L8). |
 | `panorama` | `360: <photograph title>` | Panorama | `foss-earth/panorama`, with UMN-owned photographs, captions, credits and links. This is one dynamically titled tab over the active/entering photograph, not a separate implementation or repository per photograph or campus stop. | [`panoramaTabs.ts:213`](../../../../foss-earth/src/shell/panoramaTabs.ts#L213); registered at [`WindowOverlay.tsx:179`](../../../../foss-earth/src/shell/WindowOverlay.tsx#L179). |
@@ -105,10 +105,14 @@ campus content release; it transfers neither media ownership nor viewer
 implementation. Generic schema, loader, panorama preparation and checking
 tools belong to `foss-earth/panorama`.
 
-The campus [build configuration](../../vite.config.ts#L80) supplies About
-with its own repository/version metadata. Proposed release/workspace/graph
-manifests likewise remain with the campus application. Shared presentation and
-setup tools read those inputs; they do not become their owner. There is no
+The campus [build configuration](../../vite.config.ts#L80) currently supplies
+the shared About panel with its repository/version metadata. After extraction,
+`UMN-VR/about` owns campus-specific About code, content, authored graph metadata
+and the manifest adapter; `UMN-VR/tour` owns release/workspace manifests and
+supplies resolved build data. The
+[About boundary](repository-graphs.md#about-code-and-data) defines this contract.
+Shared presentation and setup tools read those inputs; they do not become
+their owner. There is no
 runtime, content or developer-setup dependency on 0sfs.
 
 ## Sections, routes and other non-tabs

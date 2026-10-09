@@ -81,7 +81,16 @@
       "group": "applications",
       "tab": "Campus tour",
       "detail": "Proposed campus-tour runtime extraction: pages, placements, platform-specific import, accessibility, campus branding and app-owned developer contributions.",
-      "note": "The tour supplies its own About/build metadata and Dev contributions to shared FOSS Earth modules. It depends on no 0sfs package."
+      "note": "The tour supplies its resolved release manifest to UMN-VR/about and registers its own Dev contributions. It depends on no 0sfs package."
+    },
+    {
+      "id": "about",
+      "name": "UMN-VR/about",
+      "owner": "UMN-VR",
+      "group": "applications",
+      "tab": "About · campus content and graph adapter",
+      "detail": "Campus About tab composition, project information, links/credits, authored dependency-graph metadata and adapter for the installed tour release manifest. Consumes the shared FOSS Earth About viewer.",
+      "note": "The tour build supplies resolved versions and provenance as data. About never imports the tour runtime or owns its release pins; generic graph layout, schema and validation stay in foss-earth/about."
     },
     {
       "id": "media",
@@ -108,7 +117,7 @@
       "owner": "UMN-VR",
       "group": "content",
       "tab": "UMN-owned setup data",
-      "detail": "Tour, media and shared-module checkout/toolchain/build plan consumed by generic setup tooling. No flight checkout is required.",
+      "detail": "Tour, UMN About, media and shared-module checkout/toolchain/build plan consumed by generic setup tooling. No flight checkout is required.",
       "kind": "contract"
     },
     {
@@ -263,9 +272,28 @@
     },
     {
       "from": "tour",
+      "to": "about",
+      "type": "code",
+      "reason": "Registers the campus-owned About tab and supplies the installed tour release manifest."
+    },
+    {
+      "from": "about",
       "to": "earth-about",
       "type": "code",
-      "reason": "Tour consumes generic public modules and supplies its own campus data/contributions."
+      "reason": "Campus presentation and manifest adapter consume the shared About viewer, schema and graph validation."
+    },
+    {
+      "from": "about",
+      "to": "interface",
+      "type": "code",
+      "reason": "Campus-specific About sections use the shared UI contribution contracts and widgets."
+    },
+    {
+      "from": "about",
+      "to": "manifest",
+      "type": "content",
+      "reason": "Receives the tour build's resolved versions and provenance as data without importing the tour runtime.",
+      "label": "UMN build metadata"
     },
     {
       "from": "tour",
@@ -277,7 +305,7 @@
       "from": "tour",
       "to": "manifest",
       "type": "content",
-      "reason": "Supplies campus-owned metadata to the shared About viewer.",
+      "reason": "Owns and supplies the resolved campus release metadata to UMN-VR/about.",
       "label": "UMN build metadata"
     },
     {
@@ -390,6 +418,13 @@
       "label": "shared checks"
     },
     {
+      "from": "about",
+      "to": "earth-ci",
+      "type": "reference",
+      "reason": "Local pinned workflow validates the campus About adapter and graph metadata with shared checks.",
+      "label": "shared checks"
+    },
+    {
       "from": "media",
       "to": "earth-ci",
       "type": "reference",
@@ -434,6 +469,12 @@
       "to": "tour",
       "type": "reference",
       "reason": "Links owner-maintained tour contracts and releases."
+    },
+    {
+      "from": "docs",
+      "to": "about",
+      "type": "reference",
+      "reason": "Links the campus About contract and authoritative authored dependency-graph metadata."
     },
     {
       "from": "docs",
