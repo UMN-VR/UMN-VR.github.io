@@ -4,6 +4,13 @@ Status: proposal, 2026-10-08. [Open the graph](repository-split-graph.html).
 Its authoritative metadata is [repository-split-graph.json](repository-split-graph.json).
 The graph describes proposed boundaries, not completed extraction or deployment.
 
+The [campus agent brief](implementation/campus-agent.md) specifies execution.
+The graph's **Deferred TODOs** group records later consumption of
+[`foss-earth/search`](../../../../foss-earth/docs/proposals/search.md) and
+[`foss-earth/vr`](../../../../foss-earth/docs/proposals/vr.md). These are not
+current tab IDs or migration deliverables; do not provision or implement them
+during the split. UMN uses shared VR directly, with no flight VR dependency.
+
 The [campus-tour tab inventory](tab-inventory.md) records all 13 current tab
 IDs, their globe/panorama availability, source evidence and proposed owners.
 It distinguishes current tabs from future Dev/Weather contributions, website
@@ -21,11 +28,47 @@ Scenes, 360 viewer and developer framework, and `UMN-VR/about` for its About tab
 Renderer owns device/scene/frame
 services; globe engine consumes it without a reverse import. The tour registers
 its own toolbar callbacks and values using shared UI primitives. Generic check/setup tools remain
-FOSS Earth-owned. This application has no dependency on flight code, content,
+FOSS Earth-owned; `UMN-VR/dev_installer` supplies the dedicated campus setup
+entry point. This application has no dependency on flight code, content,
 documentation or tooling. UMN documentation, research, community guidance and
 the tour's release/workspace manifests remain UMN-owned. The tour supplies its
 own manifest and app-specific Dev contributions; no branded graph data moves
 into the shared viewer.
+
+## Campus development installer
+
+**`UMN-VR/dev_installer` is a proposed repository** for the campus-facing CLI
+and onboarding documentation. It consumes `foss-earth/dev_installer` for
+manifest validation, dependency selection/build order, cloning, updates,
+artifact checks, resumption and dirty-checkout protection. Generic CI remains
+in `foss-earth/ci`; the campus installer owns its pinned workflow caller and
+campus integration checks, not a second generic CI implementation.
+
+The default prepares a complete campus development workspace: the club site,
+tour, About and their declared shared dependencies, plus versioned prepared
+content sufficient for the current tour. Component selections are available
+through the shared CLI and resolve the selected component's dependencies.
+Normal app development must not require the local-only YouVisit source backup;
+optional media-authoring setup documents that prerequisite separately. Record
+download sources, sizes and digests, preserve existing work and start no server
+implicitly.
+
+`UMN-VR/tour` retains the authoritative workspace/release manifests. The campus
+wrapper bootstraps an exact immutable workspace-manifest reference and digest,
+or accepts an explicit manifest input. It passes that data to the shared CLI
+without importing the tour runtime or maintaining a duplicate repository list.
+The tour runtime does not import the installer. The graph's setup/reference
+edges describe developer tooling and manifest data; they do not create a
+tour/installer runtime cycle or any dependency on flight.
+
+Today's onboarding lives in the [README](../../README.md),
+[package scripts/dependencies](../../package.json),
+[build configuration](../../vite.config.ts) and
+[scene preparation tools](../../tools/twin-cities/README.md). Those sources
+define the bootstrap inventory; no campus installer exists yet. The
+[campus agent brief](implementation/campus-agent.md) requires a clean default
+setup, a component-selection check, exact pins/artifact verification, safe
+failure/resumption and a recorded installer/shared-CLI/manifest handoff.
 
 ## Scenes and image representations
 

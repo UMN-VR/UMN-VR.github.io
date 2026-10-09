@@ -87,6 +87,15 @@ does not establish another campus feature repository.
 
 ## Future tabs and host-owned inputs
 
+**Search and VR are deferred TODOs for a later task.** The tour will consume
+[`foss-earth/search`](../../../../foss-earth/docs/proposals/search.md) for a
+shared Search tab covering its registered tabs/content, and
+[`foss-earth/vr`](../../../../foss-earth/docs/proposals/vr.md) for shared VR.
+Any campus contributions remain in the tour; no `UMN-VR/vr` is proposed and
+the tour does not consume `0sfs/vr`. VR's tab/settings presentation is undecided.
+Neither feature is provisioned or implemented during the split, and neither
+changes the 13 current IDs.
+
 **Dev is proposed, not a current tour tab.** The proposed `foss-earth/dev`
 owns generic `?dev=1` activation and contribution mechanics. `UMN-VR/tour`
 would own campus-specific developer panels and data registered through that
