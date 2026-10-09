@@ -262,6 +262,12 @@ attribution to your own commits. Preserve genuine human and third-party asset
 credits. Report existing contaminated history to the coordinator; do not
 silently rewrite it or invent human attribution. The coordinator verifies
 required merge checks/protection and final publication across the repositories.
+Every UMN destination runs the shared consumer-conformance command through
+its installed validation entry point, including content, docs/research,
+installer and `.github` repos. Hand off policy/caller pins and positive/negative
+attribution results for the coordinator's per-remote enforcement receipt.
+Use shared fixtures, keep invalid synthetic commits out of published history,
+and never skip metadata checks based on changed paths or app-test availability.
 
 Update README commands, content-delivery instructions, tab inventory, graph,
 research/manual links and report destinations for actual final owners. Keep
