@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "owner": "UMN-VR",
+  "status": "proposed-not-live",
+  "date": "2026-10-08",
+  "arrowDirection": "consumer-to-dependency",
+  "title": "UMN VR · repository split",
+  "summary": "Campus experience, media and shared globe dependencies. No flight code or tooling.",
+  "sourceDocument": "repository-graphs.md",
+  "sourceLabel": "UMN ownership and regeneration",
+  "dataFile": "repository-split-graph.json",
+  "relatedGraphs": [
+    {
+      "label": "FOSS Earth graph",
+      "href": "../../../../foss-earth/docs/proposals/repository-split-graph.html"
+    },
+    {
+      "label": "0sfs graph",
+      "href": "../../../../0sfs/docs/proposals/repository-split-graph.html"
+    }
+  ],
+  "ownershipNote": "The campus application consumes FOSS Earth shared packages. It has no dependency on 0sfs code, content, documentation or tooling.",
+  "scope": {
+    "owner": "UMN-VR",
+    "allowedOwners": [
+      "UMN-VR",
+      "foss-earth",
+      "Felipegalind0"
+    ],
+    "dependencyOwners": {
+      "UMN-VR": [
+        "UMN-VR",
+        "foss-earth"
+      ],
+      "foss-earth": [
+        "foss-earth",
+        "Felipegalind0"
+      ],
+      "Felipegalind0": [
+        "Felipegalind0",
+        "foss-earth"
+      ]
+    }
+  },
+  "groups": [
+    {
+      "id": "applications",
+      "title": "UMN website & campus experience",
+      "note": "Club pages and independently packaged campus tour."
+    },
+    {
+      "id": "content",
+      "title": "UMN-owned data & media",
+      "note": "Campus placements, photographs and manifests stay here."
+    },
+    {
+      "id": "shared",
+      "title": "FOSS Earth dependencies",
+      "note": "Generic shared code; no flight dependencies."
+    },
+    {
+      "id": "knowledge",
+      "title": "UMN records & tooling",
+      "note": "Local guidance, content studies and app-specific build plans."
+    }
+  ],
+  "nodes": [
+    {
+      "id": "site",
+      "name": "UMN-VR/UMN-VR.github.io",
+      "owner": "UMN-VR",
+      "group": "applications",
+      "tab": "Club website / tour entry",
+      "detail": "UMN VR club landing pages and entry/deployment of a pinned campus-tour release.",
+      "existing": true
+    },
+    {
+      "id": "tour",
+      "name": "UMN-VR/tour",
+      "owner": "UMN-VR",
+      "group": "applications",
+      "tab": "Campus tour",
+      "detail": "Proposed campus-tour runtime extraction: pages, placements, platform-specific import, accessibility, campus branding and app-owned developer contributions.",
+      "note": "The tour supplies its own About/build metadata and Dev contributions to shared FOSS Earth modules. It depends on no 0sfs package."
+    },
+    {
+      "id": "media",
+      "name": "UMN-VR/twin-cities-content",
+      "owner": "UMN-VR",
+      "group": "content",
+      "tab": "Campus scene/media",
+      "detail": "Optional independently published scene and photographs. Versioned external hosting can implement the same boundary without another repository.",
+      "kind": "content",
+      "optional": true
+    },
+    {
+      "id": "manifest",
+      "name": "UMN release manifest",
+      "owner": "UMN-VR",
+      "group": "content",
+      "tab": "UMN-owned build data",
+      "detail": "The one campus-tour build/dependency manifest, composed from the tour release and shared-module pins. It is not the simulator or standalone globe manifest.",
+      "kind": "contract"
+    },
+    {
+      "id": "workspace-manifest",
+      "name": "UMN workspace manifest",
+      "owner": "UMN-VR",
+      "group": "content",
+      "tab": "UMN-owned setup data",
+      "detail": "Tour, media and shared-module checkout/toolchain/build plan consumed by generic setup tooling. No flight checkout is required.",
+      "kind": "contract"
+    },
+    {
+      "id": "earth",
+      "name": "foss-earth/engine",
+      "owner": "foss-earth",
+      "group": "shared",
+      "tab": "Map · Location",
+      "detail": "Proposed shared globe-engine extraction: terrain, imagery, coordinates, authoritative surface queries, globe camera/input and world integration. It consumes the shared renderer for scene/device/frame services.",
+      "note": "Globe code owns maps and surface queries. Renderer owns device, scene, backends and frame scheduling; its API has no import back into the globe engine."
+    },
+    {
+      "id": "interface",
+      "name": "foss-earth/ui",
+      "owner": "foss-earth",
+      "group": "shared",
+      "tab": "Interface · Settings · Bug report",
+      "detail": "Generic windows/tabs, settings registry/types/widgets, contribution registration, status log and report contracts. Each host registers its own feature catalogs and callbacks.",
+      "note": "UI imports neither globe/renderer implementations nor flight/campus packages. Toolbar and feature panels consume its primitives. Shared ?dev=1 plumbing activates only host-registered developer contributions."
+    },
+    {
+      "id": "earth-about",
+      "name": "foss-earth/about",
+      "owner": "foss-earth",
+      "group": "shared",
+      "tab": "About · generic graph viewer",
+      "detail": "Shared build identity/provenance and dependency graph viewer. Reads a host-supplied manifest without importing any described runtime.",
+      "note": "Viewer code belongs to FOSS Earth; application-branded data, release pins and graph content belong to each application."
+    },
+    {
+      "id": "sky",
+      "name": "foss-earth/sky",
+      "owner": "foss-earth",
+      "group": "shared",
+      "tab": "Sky · Date and time",
+      "detail": "Shared astronomy, clear atmosphere, stars, physical lighting and optional renderer/panels.",
+      "note": "Terrain-lighting, settings and scene-time ports are supplied by the host. No import back into globe engine and no flight dependency."
+    },
+    {
+      "id": "weather",
+      "name": "foss-earth/weather",
+      "owner": "foss-earth",
+      "group": "shared",
+      "tab": "Weather",
+      "detail": "Canonical world weather definition, sampling, sources, optional rendering and shared panel. Aircraft samples and visuals consume one field.",
+      "note": "The larger weather model is a specification, not a completed extraction. Core imports neither globe runtime nor JSBSim."
+    },
+    {
+      "id": "panorama",
+      "name": "foss-earth/panorama",
+      "owner": "foss-earth",
+      "group": "shared",
+      "tab": "Scenes · Active 360 image · 360 image settings",
+      "detail": "Generic scene schema, loader, panorama viewer, image preparation and validation tools. Campus photographs and placements remain UMN-owned."
+    },
+    {
+      "id": "earth-dev",
+      "name": "foss-earth/dev",
+      "owner": "foss-earth",
+      "group": "shared",
+      "tab": "Dev · shared contribution framework",
+      "detail": "Shared developer-tab plumbing, graph/debug widget services and the ?dev=1 activation contract. Hosts register distinct app-owned developer panels.",
+      "note": "This framework does not import simulator debug code or a particular tour. Enabling Dev does not create another physics loop."
+    },
+    {
+      "id": "earth-installer",
+      "name": "foss-earth/dev_installer",
+      "owner": "foss-earth",
+      "group": "shared",
+      "tab": "Generic developer workspace CLI",
+      "detail": "Generic setup/update/doctor machinery that reads an explicit versioned workspace manifest. It does not hardcode downstream projects or import their runtime packages."
+    },
+    {
+      "id": "earth-ci",
+      "name": "foss-earth/ci",
+      "owner": "foss-earth",
+      "group": "shared",
+      "tab": "Shared CI / authorship validator",
+      "detail": "Shared reviewed workflows, checks and authorship validator machinery. Each consumer owns a thin pinned workflow entry point and its component-specific tests.",
+      "note": "Tooling reuse is not a runtime dependency. The shared validator does not own app-specific build or qualification claims."
+    },
+    {
+      "id": "docs",
+      "name": "UMN-VR/docs",
+      "owner": "UMN-VR",
+      "group": "knowledge",
+      "tab": "Campus/club documentation",
+      "detail": "Tour contributor and user documentation, content preparation, deployments and campus-specific contracts."
+    },
+    {
+      "id": "research",
+      "name": "UMN-VR/research",
+      "owner": "UMN-VR",
+      "group": "knowledge",
+      "tab": "Campus content research",
+      "detail": "Campus capture/content studies and accessibility/user findings. Generic panorama rendering research remains FOSS Earth-owned."
+    },
+    {
+      "id": "policy",
+      "name": "UMN-VR/.github",
+      "owner": "UMN-VR",
+      "group": "knowledge",
+      "tab": "UMN community guidance",
+      "detail": "Club/tour contribution guidance and templates. Thin workflows can call generic FOSS Earth checks with local component tests."
+    },
+    {
+      "id": "gamepad",
+      "name": "Felipegalind0/gamepad-tools",
+      "owner": "Felipegalind0",
+      "group": "shared",
+      "tab": "Controller device handling",
+      "detail": "Established controller-handling package consumed by the shared globe engine. No flight action handling is imported.",
+      "existing": true
+    },
+    {
+      "id": "renderer",
+      "name": "foss-earth/renderer",
+      "owner": "foss-earth",
+      "group": "shared",
+      "tab": "Renderer",
+      "detail": "Shared device/scene lifecycle, WebGPU/WebGL backends, readiness, frame scheduler and optional Renderer panel.",
+      "note": "Renderer never imports the globe engine. Its optional panel consumes UI; map and aircraft contributions arrive through explicit services."
+    },
+    {
+      "id": "toolbar",
+      "name": "foss-earth/toolbar",
+      "owner": "foss-earth",
+      "group": "shared",
+      "tab": "Bottom HUD / toolbar",
+      "detail": "Bottom HUD layout and display of registered callbacks/values. Hosts supply map, position, renderer, input and app-specific items through public contracts.",
+      "note": "Consumes generic UI primitives. It does not import the implementations whose values/buttons it shows; each setting still has one tab home."
+    }
+  ],
+  "edges": [
+    {
+      "from": "site",
+      "to": "tour",
+      "type": "content",
+      "reason": "Publishes/links the pinned campus-tour release; club pages remain independently owned."
+    },
+    {
+      "from": "tour",
+      "to": "earth",
+      "type": "code",
+      "reason": "Tour consumes generic public modules and supplies its own campus data/contributions."
+    },
+    {
+      "from": "tour",
+      "to": "interface",
+      "type": "code",
+      "reason": "Tour consumes generic public modules and supplies its own campus data/contributions."
+    },
+    {
+      "from": "tour",
+      "to": "earth-about",
+      "type": "code",
+      "reason": "Tour consumes generic public modules and supplies its own campus data/contributions."
+    },
+    {
+      "from": "tour",
+      "to": "earth-dev",
+      "type": "code",
+      "reason": "Tour consumes generic public modules and supplies its own campus data/contributions."
+    },
+    {
+      "from": "tour",
+      "to": "manifest",
+      "type": "content",
+      "reason": "Supplies campus-owned metadata to the shared About viewer.",
+      "label": "UMN build metadata"
+    },
+    {
+      "from": "tour",
+      "to": "media",
+      "type": "content",
+      "reason": "Optional versioned campus scene/media origin.",
+      "optional": true
+    },
+    {
+      "from": "earth",
+      "to": "sky",
+      "type": "code",
+      "reason": "Shared globe-engine modules are independently owned; no downstream app import."
+    },
+    {
+      "from": "earth",
+      "to": "weather",
+      "type": "code",
+      "reason": "Shared globe-engine modules are independently owned; no downstream app import."
+    },
+    {
+      "from": "earth",
+      "to": "panorama",
+      "type": "code",
+      "reason": "Shared globe-engine modules are independently owned; no downstream app import."
+    },
+    {
+      "from": "earth",
+      "to": "interface",
+      "type": "code",
+      "reason": "Shared globe-engine modules are independently owned; no downstream app import."
+    },
+    {
+      "from": "earth",
+      "to": "earth-about",
+      "type": "code",
+      "reason": "Shared globe-engine modules are independently owned; no downstream app import."
+    },
+    {
+      "from": "sky",
+      "to": "interface",
+      "type": "code",
+      "reason": "Generic panel/settings dependencies; no campus or flight imports."
+    },
+    {
+      "from": "weather",
+      "to": "interface",
+      "type": "code",
+      "reason": "Generic panel/settings dependencies; no campus or flight imports."
+    },
+    {
+      "from": "panorama",
+      "to": "interface",
+      "type": "code",
+      "reason": "Generic panel/settings dependencies; no campus or flight imports."
+    },
+    {
+      "from": "earth-about",
+      "to": "interface",
+      "type": "code",
+      "reason": "Generic panel/settings dependencies; no campus or flight imports."
+    },
+    {
+      "from": "earth-dev",
+      "to": "interface",
+      "type": "code",
+      "reason": "Generic panel/settings dependencies; no campus or flight imports."
+    },
+    {
+      "from": "earth-dev",
+      "to": "earth-about",
+      "type": "code",
+      "reason": "Reuses generic graph/provenance presentation."
+    },
+    {
+      "from": "media",
+      "to": "panorama",
+      "type": "reference",
+      "reason": "Campus media preparation/check tools consume generic scene tooling.",
+      "label": "content build tools",
+      "optional": true
+    },
+    {
+      "from": "tour",
+      "to": "earth-installer",
+      "type": "reference",
+      "reason": "Developer commands call generic setup/update/doctor machinery with the UMN workspace plan.",
+      "label": "generic setup tooling"
+    },
+    {
+      "from": "tour",
+      "to": "workspace-manifest",
+      "type": "reference",
+      "reason": "Owns and selects the UMN workspace plan.",
+      "label": "workspace data"
+    },
+    {
+      "from": "site",
+      "to": "earth-ci",
+      "type": "reference",
+      "reason": "Local pinned workflow calls generic shared checks and retains UMN-specific tests.",
+      "label": "shared checks"
+    },
+    {
+      "from": "tour",
+      "to": "earth-ci",
+      "type": "reference",
+      "reason": "Local pinned workflow calls generic shared checks and retains UMN-specific tests.",
+      "label": "shared checks"
+    },
+    {
+      "from": "media",
+      "to": "earth-ci",
+      "type": "reference",
+      "reason": "Local pinned workflow calls generic shared checks and retains UMN-specific tests.",
+      "label": "shared checks"
+    },
+    {
+      "from": "docs",
+      "to": "earth-ci",
+      "type": "reference",
+      "reason": "Local pinned workflow calls generic shared checks and retains UMN-specific tests.",
+      "label": "shared checks"
+    },
+    {
+      "from": "research",
+      "to": "earth-ci",
+      "type": "reference",
+      "reason": "Local pinned workflow calls generic shared checks and retains UMN-specific tests.",
+      "label": "shared checks"
+    },
+    {
+      "from": "policy",
+      "to": "earth-ci",
+      "type": "reference",
+      "reason": "Local pinned workflow calls generic shared checks and retains UMN-specific tests.",
+      "label": "shared checks"
+    },
+    {
+      "from": "site",
+      "to": "docs",
+      "type": "reference",
+      "reason": "Club/tour pages link their own documentation."
+    },
+    {
+      "from": "docs",
+      "to": "research",
+      "type": "reference",
+      "reason": "References campus-owned studies."
+    },
+    {
+      "from": "docs",
+      "to": "tour",
+      "type": "reference",
+      "reason": "Links owner-maintained tour contracts and releases."
+    },
+    {
+      "from": "docs",
+      "to": "policy",
+      "type": "reference",
+      "reason": "Own organization contribution guidance."
+    },
+    {
+      "from": "earth",
+      "to": "gamepad",
+      "type": "code",
+      "reason": "Shared globe input consumes the established device-handling package."
+    },
+    {
+      "from": "earth",
+      "to": "renderer",
+      "type": "code",
+      "reason": "Globe integration consumes renderer device/scene/backend/frame services; renderer never imports globe code."
+    },
+    {
+      "from": "renderer",
+      "to": "interface",
+      "type": "code",
+      "reason": "Optional Renderer panel entry point consumes generic UI widgets/contracts.",
+      "label": "optional panel"
+    },
+    {
+      "from": "toolbar",
+      "to": "interface",
+      "type": "code",
+      "reason": "Toolbar layout and registered item controls use generic UI primitives."
+    },
+    {
+      "from": "tour",
+      "to": "toolbar",
+      "type": "code",
+      "reason": "Application host registers toolbar callbacks/values without moving its feature implementations into the toolbar."
+    }
+  ]
+}
