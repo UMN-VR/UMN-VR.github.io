@@ -1,0 +1,12 @@
+{
+  "name": "@umn-vr/club-site",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "The UMN VR club's site, https://umn-vr.github.io/: its landing page and the campus tours.",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "deploy": "node scripts/deploy.mjs"
+  }
+}
