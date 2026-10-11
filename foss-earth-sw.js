@@ -1,22 +1,13 @@
 "use strict";
-/**
- * The service worker that keeps an app's own files on the visitor's device
- * (docs/app-files.md). The appFiles Vite plugin (appFiles.ts) writes it into
- * a build as `foss-earth-sw.js`, calling `install(self, files)` with the
- * build's file names, relative to the worker.
- *
- * Each of those names carries its file's content hash, so a kept copy is
- * never out of date: it is answered from the device without asking the
- * network, however long ago it was kept. The page itself is never kept: it
- * comes from the network every time, asked for while the worker starts, so
- * a new version shows on the next visit, and its new file names are
- * downloaded once. Every other request passes by: scene images are kept by
- * the scene loader, under their revisions.
- */
-function install(worker, files) {
+/** Extracted from Earth App/vite/appFilesWorker.js; host policy controls retention.
+ * Pages are always network-first; no media cache or app/runtime is constructed. */
+function install(worker, manifest) {
+  const files = manifest.files.map(file => file.url);
   const paths = new Set(files.map(name => new URL(name, worker.location.href).pathname));
   // One store for the worker's own address: a build's files, whichever of its pages asked for them.
-  const cacheName = `foss-earth-app-files ${new URL(worker.location.href).pathname}`;
+  const cacheName = `${manifest.cacheNamespace} ${new URL(worker.location.href).pathname}`;
+  const base = new URL(manifest.base, worker.location.origin);
+  const retained = new Set(manifest.retainedFiles.map(file => new URL(file.url, worker.location.href).pathname));
   const matchOptions = { ignoreVary: true, ignoreSearch: true };
   // Set when the page turns keeping off: until the page closes, this worker still sees its requests, and passes them by.
   let forgotten = false;
@@ -50,9 +41,10 @@ function install(worker, files) {
       // The page is asked for while the worker starts, not after.
       await worker.registration.navigationPreload?.enable().catch(() => {});
       const cache = await worker.caches.open(cacheName);
-      // A file this version does not list belongs to an older one: its name will not be asked for again.
-      for (const request of await cache.keys()) {
-        if (!paths.has(new URL(request.url).pathname)) await cache.delete(request);
+      // Older pages may still request their files. Deletion is an explicit host
+      // policy; retained legacy resources survive either activation policy.
+      if (manifest.retention === "current-only") for (const request of await cache.keys()) {
+        if (!paths.has(new URL(request.url).pathname) && !retained.has(new URL(request.url).pathname)) await cache.delete(request);
       }
       await worker.clients.claim();
     })());
@@ -69,13 +61,26 @@ function install(worker, files) {
       })());
       return;
     }
-    const path = forgotten ? null : listed(request.url);
-    if (path) event.respondWith(answer(event, request, path));
+    if (forgotten) return;
+    const path = listed(request.url);
+    if (path) { event.respondWith(answer(event, request, path)); return; }
+    // Existing older files are usable by still-open pages. Do not acquire an
+    // unknown file merely because the worker controls the deployment root.
+    const url = new URL(request.url);
+    if (url.origin !== base.origin || !url.pathname.startsWith(base.pathname)) return;
+    if (retained.has(url.pathname) || manifest.retention === "retain-older") event.respondWith((async () => {
+      const cache = await worker.caches.open(cacheName);
+      const old = await cache.match(url.pathname, matchOptions);
+      if (old) return old;
+      if (retained.has(url.pathname)) return answer(event, request, url.pathname);
+      return worker.fetch(request);
+    })());
   });
 
   // The page names what it loaded before this worker controlled it; those files are kept from the browser's cache.
   worker.addEventListener("message", event => {
     const data = event.data;
+    if (manifest.identity && data?.identity !== manifest.identity) return;
     if (data?.type === "foss-earth-forget") forgotten = true;
     if (data?.type !== "foss-earth-keep" || !Array.isArray(data.urls)) return;
     forgotten = false;
@@ -83,7 +88,7 @@ function install(worker, files) {
       const cache = await worker.caches.open(cacheName);
       for (const href of data.urls) {
         const path = typeof href === "string" ? listed(href) : null;
-        if (!path || await cache.match(path, matchOptions)) continue;
+        if (forgotten || !path || await cache.match(path, matchOptions)) continue;
         const response = await worker.fetch(path, { cache: "force-cache" }).catch(() => null);
         if (keepable(response)) await cache.put(path, response).catch(() => {});
       }
@@ -91,4 +96,4 @@ function install(worker, files) {
   });
 }
 
-install(self, ["assets/abstractAudioNode-PfkovOFX.js","assets/abstractSoundSource-BRF04F4i.js","assets/animation-BS8gj7fz.js","assets/buffer-Dis0Ijtw.js","assets/clusteredLightingFunctions-BMJdTjac.js","assets/clusteredLightingFunctions-D3h9uv7n.js","assets/cubemapToSphericalPolynomial-QrA_qsqP.js","assets/dataBuffer-C-wqV4qF.js","assets/dds-BOcCmMuA.js","assets/decorators-CN1Ng5e5.js","assets/devTools-DmD3AOL3.js","assets/dumpTools-C63xhS6E.js","assets/effectRenderer-CkPJ29MF.js","assets/egm2008-15-nvvz7MYe.bin","assets/egm2008-30-BpPXoGjA.bin","assets/egm2008-60-bDxgbz8U.bin","assets/engineStore-CKkyXB7S.js","assets/floatingOriginMatrixOverrides-BdLiZemZ.js","assets/flowGraphAsyncExecutionBlock-l9yId0AZ.js","assets/flowGraphBlock-DicjZr_A.js","assets/flowGraphCachedOperationBlock-Dgs3UTZz.js","assets/flowGraphExecutionBlock-CAjlOkZq.js","assets/flowGraphExecutionBlockWithOutSignal-yISR07kS.js","assets/guid-BXdVC_j_.js","assets/imageryDecodeWorker-BARMbeeW.js","assets/lightConstants-wlPOJ9rv.js","assets/logger-CuBYPcDK.js","assets/ltcHelperFunctions-BMi4nyB5.js","assets/ltcHelperFunctions-D0fPO7Ji.js","assets/mainUVVaryingDeclaration-Bi-owTpY.js","assets/mainUVVaryingDeclaration-D1A6ESk3.js","assets/math.axis-B0uJO_Mu.js","assets/math.color-CzvnTGaX.js","assets/math.frustum-BmpO_7_K.js","assets/math.path-DGvzraWE.js","assets/math.plane-BUns5kps.js","assets/math.scalar.functions-CQA38JRp.js","assets/math.size-BJly4Bcd.js","assets/math.vector-lDpFf2si.js","assets/meshUboDeclaration-CmIQ_8hI.js","assets/meshUboDeclaration-D9VmL7M6.js","assets/node-Br3HAZQ9.js","assets/observable-CJ4J1f_C.js","assets/oitFinalSimpleBlend.fragment-Q5Yng1yZ.js","assets/oitFinalSimpleBlend.fragment-nGYFumis.js","assets/pickingInfo-D7ve8Nmg.js","assets/pointerEvents-_20Qj9Uk.js","assets/postprocess.vertex-Bpil2hZM.js","assets/postprocess.vertex-CWUbc_LB.js","assets/precisionDate-CfCevjl-.js","assets/samplerFragmentDeclaration-Ddqenr6W.js","assets/samplerFragmentDeclaration-I1t02tES.js","assets/scene-Bj10J6UY.js","assets/sceneUboDeclaration-CR5dQRQU.js","assets/sceneUboDeclaration-TbZ5RU0g.js","assets/screenSpaceCurvature.fragment-DGKqBbuS.js","assets/searchAirports-CWUfMrqe.js","assets/selection.fragment-Cdc0o-73.js","assets/selection.fragment-sQbP14gl.js","assets/selection.vertex-CIOQtNv2.js","assets/selection.vertex-DA3q6bNB.js","assets/selectionOutline.fragment-DrrHq-tw.js","assets/selectionOutline.fragment-_-Zw7HTM.js","assets/shaderStore-D-XQlhUT.js","assets/spatialWebAudioUpdaterComponent-DlOLam-_.js","assets/starCatalogue-DSWPyUwb.js","assets/subMesh-BajQBPGx.js","assets/texture-9JHd-QdH.js","assets/textureTools-BpLXMmNo.js","assets/thinEngine-DpWjpJl-.js","assets/tools-DGLA8K3H.js","assets/tools.functions-BWtF9eJp.js","assets/twinCities-B1IkbYXE.js","assets/twinCities-DETDpIbv.css","assets/typeStore-Cu_sj2zM.js","assets/viewer-C_DKnQXU.js","assets/volumetricLightingBlendVolume.fragment-Bz5yiNiY.js","assets/volumetricLightingBlendVolume.fragment-DIkNb-c4.js","assets/volumetricLightingRenderVolume.fragment-BjkbGjmo.js","assets/volumetricLightingRenderVolume.fragment-DzoSWSk1.js","assets/volumetricLightingRenderVolume.vertex-BLv7CkLF.js","assets/volumetricLightingRenderVolume.vertex-DdqT4-qG.js","assets/webAudioBaseSubGraph-C73fQuIp.js","assets/webRequest-dqz0dHXK.js"]);
+install(self, {"schemaVersion":1,"base":"/","scope":"/","workerFile":"foss-earth-sw.js","cacheNamespace":"foss-earth-app-files","identity":null,"retention":"current-only","files":[{"url":"/assets/abstractAudioBus-IbX4iSMC.js"},{"url":"/assets/abstractAudioNode-DW4VTajR.js"},{"url":"/assets/abstractEngine.cubeTexture-uq_16wj6.js"},{"url":"/assets/abstractSoundInstance-CuuNUr0j.js"},{"url":"/assets/abstractSoundSource-DPuUWwWE.js"},{"url":"/assets/animation-CISTNmG2.js"},{"url":"/assets/animationGroup-C5touQxJ.js"},{"url":"/assets/atlasImagery.worker-DBCeQ3je.js"},{"url":"/assets/babylon-shaders-glsl-BDB5h_-g.js"},{"url":"/assets/babylon-shaders-wgsl-4lt-j9l0.js"},{"url":"/assets/baseTexture.polynomial-DKyiSAQ5.js"},{"url":"/assets/bone-BSAHU30F.js"},{"url":"/assets/brdfTextureTools-Blh0U2tW.js"},{"url":"/assets/buffer-CdnG6sKb.js"},{"url":"/assets/buffer-UQglctLJ.js"},{"url":"/assets/cubemapToSphericalPolynomial-BOxTEX_E.js"},{"url":"/assets/dataBuffer-C-wqV4qF.js"},{"url":"/assets/dds-C2dTt2az.js"},{"url":"/assets/decorators-CN1Ng5e5.js"},{"url":"/assets/devTools-DmD3AOL3.js"},{"url":"/assets/dumpTools-BgocNuoA.js"},{"url":"/assets/easing-Dm9VDgD4.js"},{"url":"/assets/effectRenderer-DM2UhEp4.js"},{"url":"/assets/egm2008-15-nvvz7MYe.bin"},{"url":"/assets/egm2008-30-BpPXoGjA.bin"},{"url":"/assets/egm2008-60-bDxgbz8U.bin"},{"url":"/assets/engineStore-CKkyXB7S.js"},{"url":"/assets/environmentTextureTools-DWz9zFoA.js"},{"url":"/assets/floatingOriginMatrixOverrides-DqSG47nr.js"},{"url":"/assets/flowGraphAssetsContext-WtUyuDAI.js"},{"url":"/assets/flowGraphAsyncExecutionBlock-Bvl308Y3.js"},{"url":"/assets/flowGraphBinaryOperationBlock-DmSGZwyK.js"},{"url":"/assets/flowGraphBlock-ERqv2EAF.js"},{"url":"/assets/flowGraphCachedOperationBlock-B_GY8dWh.js"},{"url":"/assets/flowGraphCoordinator-BO9TQ43j.js"},{"url":"/assets/flowGraphEventBlock-BU7xe34R.js"},{"url":"/assets/flowGraphExecutionBlock-Dlmpalig.js"},{"url":"/assets/flowGraphExecutionBlockWithOutSignal-BCvgF3Qh.js"},{"url":"/assets/flowGraphGLTFDataProvider-Fvg_w1jE.js"},{"url":"/assets/flowGraphUnaryOperationBlock-Bwzs7hNO.js"},{"url":"/assets/glTFLoaderAnimation-BFr27J2J.js"},{"url":"/assets/guid-BXdVC_j_.js"},{"url":"/assets/index.babylonjs-Cq0-nZNA.js"},{"url":"/assets/index.core-plugins-CgMOOvEN.js"},{"url":"/assets/lightConstants-DUaNSuF5.js"},{"url":"/assets/LoaderBase-ATuDWTDB-Dma9wrKU.js"},{"url":"/assets/logger-CuBYPcDK.js"},{"url":"/assets/math.axis-B0uJO_Mu.js"},{"url":"/assets/math.color-Q4dgtYWM.js"},{"url":"/assets/math.frustum-CcMj5eGx.js"},{"url":"/assets/math.path-DGvzraWE.js"},{"url":"/assets/math.plane-BUns5kps.js"},{"url":"/assets/math.scalar.functions-CQA38JRp.js"},{"url":"/assets/math.size-BvsHYnOu.js"},{"url":"/assets/math.vector-lDpFf2si.js"},{"url":"/assets/minneapolis-vxEfW4fY.js"},{"url":"/assets/node-9ZucUUwN.js"},{"url":"/assets/observable-CJ4J1f_C.js"},{"url":"/assets/openpbrMaterialLoadingAdapter-CzvJdK2b.js"},{"url":"/assets/pbrMaterialLoadingAdapter-Dstp4V8T.js"},{"url":"/assets/pickingInfo-DGMxPzFJ.js"},{"url":"/assets/pointerEvents-_20Qj9Uk.js"},{"url":"/assets/precisionDate-CfCevjl-.js"},{"url":"/assets/rgbdTextureTools-DJixfCto.js"},{"url":"/assets/scene-CzrUaDk5.js"},{"url":"/assets/scenes-C81o2C-b.css"},{"url":"/assets/scenes-UuDcdAXr.js"},{"url":"/assets/selector-BClk3iII.css"},{"url":"/assets/selector-Bqd_yg2E.js"},{"url":"/assets/spatialWebAudio-B-bb5ZWA.js"},{"url":"/assets/spatialWebAudioUpdaterComponent-DlOLam-_.js"},{"url":"/assets/starCatalogue-DSWPyUwb.js"},{"url":"/assets/stPaul-Br5iX1aa.js"},{"url":"/assets/subMesh-Bv03rLWE.js"},{"url":"/assets/texture-BbkUzidn.js"},{"url":"/assets/textureTools-B4jZr1Fy.js"},{"url":"/assets/thinEngine-bHOD-y2H.js"},{"url":"/assets/tools-B2YksR7s.js"},{"url":"/assets/tools.functions-CpAPkLao.js"},{"url":"/assets/twinCities-Dn0KuAO9.js"},{"url":"/assets/typeStore-Cu_sj2zM.js"},{"url":"/assets/utils-BAE1Z-JU.js"},{"url":"/assets/viewer-D8142nXI.js"},{"url":"/assets/webAudioBaseSubGraph-DhZYilV5.js"},{"url":"/assets/webRequest-dqz0dHXK.js"}],"retainedFiles":[]});

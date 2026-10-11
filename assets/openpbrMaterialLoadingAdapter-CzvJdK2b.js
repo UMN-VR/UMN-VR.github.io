@@ -1,0 +1,1 @@
+export{r as OpenPBRMaterialLoadingAdapter}from"./index.babylonjs-Cq0-nZNA.js";

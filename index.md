@@ -2,6 +2,10 @@
 
 # UMN VR
 
+## Campus tours
+
+[Explore the University of Minnesota: Minneapolis, Saint Paul or both campuses](/tour/)
+
 ## GoldyDog:
 [umn-vr.github.io/GoldyDog/](https://umn-vr.github.io/GoldyDog/)
 
@@ -47,4 +51,3 @@ We are a student group that meets occasionally in the HSL virtual reality lab. W
 - Nathan Hafrey
 - Donald Bystrom
 - John Roess
-
