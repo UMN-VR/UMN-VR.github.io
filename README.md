@@ -5,38 +5,29 @@ the `gh-pages` branch:
 
 | Page | What it is | Made from |
 | --- | --- | --- |
-| `/` | The club's landing page | [index.md](index.md), [_config.yml](_config.yml) and `Media ` here, rendered by Pages with Jekyll |
-| `/tour/` | Choose a campus tour | [UMN-VR/tour](https://github.com/UMN-VR/tour) |
-| `/tour/minneapolis/` | The Minneapolis campus | the tour and [UMN-VR/minneapolis](https://github.com/UMN-VR/minneapolis) |
-| `/tour/st-paul/` | The Saint Paul campus | the tour and [UMN-VR/st-paul](https://github.com/UMN-VR/st-paul) |
-| `/tour/twin-cities/` | Both campuses | the tour and [UMN-VR/twin-cities](https://github.com/UMN-VR/twin-cities) |
+| `/` | The club's landing page | [index.html](index.html) and [club.css](club.css) here |
+| `/archive/2026-10-11/` | The previous homepage | [archive/2026-10-11/](archive/2026-10-11/) |
+| `/tour/` | Choose a campus tour | [UMN-VR/tour](https://github.com/UMN-VR/tour), its own GitHub Pages site |
 
 The folder `Media ` ends in a space, as it always has: the landing page links
 to it by that name.
 
 ## Building and deploying
 
-Check out the tour, its campus repositories and
-[FOSS Earth](https://github.com/foss-earth) beside this repository, as the
-tour's README describes, and build the tour first:
+The club site and the campus tours are separate publishes. This repository is
+the page at https://umn-vr.github.io/. The tours are
+https://umn-vr.github.io/tour/, deployed from
+[UMN-VR/tour](https://github.com/UMN-VR/tour).
 
 ```sh
-cd ../tour && npm install && npm run build && cd -
-npm run build    # dist/: the landing page and ../tour/dist
-npm run deploy   # adds dist/ to gh-pages and pushes it
+npm install
+npm run build
+npm run deploy
 ```
 
-The deploy adds files to `gh-pages` and never removes any: a visitor with the
-tour already open keeps getting the app files it asks for. It writes the commit
-with Git's plumbing, so the branch's 60,000 photographs are never checked out.
-
-The photographs are published once, apart from the app. After the tour's
-`npm run build:scene` rebuilds them in `../tour/public/`, deploy them with the
-site:
-
-```sh
-npm run deploy -- --media ../tour/public
-```
+`npm run deploy` adds this site to `gh-pages`. It does not build or publish the
+tour, and it does not upload photographs. Those commands are in the tour
+repository.
 
 ## Project policies
 

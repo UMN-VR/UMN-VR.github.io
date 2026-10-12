@@ -1,52 +1,65 @@
-// Publishes dist/ to the gh-pages branch, which GitHub Pages serves at
-// https://umn-vr.github.io/. The deploy adds dist/ to what the branch holds and removes
-// nothing: the tours' photographs are published apart from the app, and a page already
-// open keeps the older app files it asks for. Run npm run build first.
-//
-//   npm run deploy                       the landing page and the tours
-//   npm run deploy -- --media <folder>   also the photographs under <folder>/tour/twin-cities/media/,
-//                                        such as ../tour/public after its npm run build:scene
-//
-// It writes the commit with Git's plumbing, so the branch's 60,000 photographs are never
-// checked out.
+// Publishes only the club website. The tour deploys from UMN-VR/tour.
+// Existing published files remain available for older pages and archived links.
 import { execFileSync } from 'node:child_process'
-import { existsSync, readdirSync, statSync } from 'node:fs'
+import { existsSync, mkdirSync, mkdtempSync, readdirSync, rmSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
-const root = fileURLToPath(new URL('../', import.meta.url))
-const dist = path.join(root, 'dist')
-const index = path.join(root, 'build', 'gh-pages.index')
-const env = { ...process.env, GIT_INDEX_FILE: index }
-const git = (args, input) => execFileSync('git', args, { cwd: root, env, input, encoding: 'utf8', maxBuffer: 1 << 28, stdio: ['pipe', 'pipe', 'inherit'] }).trim()
+const ROOT = fileURLToPath(new URL('../', import.meta.url))
 
-const [flag, media] = process.argv.slice(2)
-if (flag && (flag !== '--media' || !media)) throw new Error('Usage: node scripts/deploy.mjs [--media <folder>]')
-if (!existsSync(path.join(dist, 'tour', 'index.html'))) throw new Error('No site in dist/: run npm run build first.')
-
-/** Every file under `base`, as [its path on the site, its path here]. */
-const filesOf = (base, under = '') => readdirSync(path.join(base, under), { recursive: true })
-  .map(file => path.join(under, file)).filter(file => statSync(path.join(base, file)).isFile())
-  .map(file => [file.split(path.sep).join('/'), path.join(base, file)])
-const files = filesOf(dist)
-if (media) {
-  const photographs = filesOf(path.resolve(media), path.join('tour', 'twin-cities', 'media'))
-  if (!photographs.length) throw new Error(`No photographs under ${path.resolve(media)}/tour/twin-cities/media/.`)
-  files.push(...photographs)
+export function publishClub({ root = ROOT, remote = 'origin', dryRun = false, log = console.log } = {}) {
+  const dist = path.join(root, 'dist')
+  const required = ['index.html', 'club.css', 'theme.css', 'theme-page.js', '.nojekyll']
+  for (const file of required) {
+    if (!existsSync(path.join(dist, file))) throw new Error(`No club build: missing ${file}. Run npm run build first.`)
+  }
+  const collect = (under = '') => readdirSync(path.join(dist, under), { withFileTypes: true }).flatMap(entry => {
+    if (entry.name === '.DS_Store') return []
+    const name = path.posix.join(under, entry.name)
+    if (entry.isSymbolicLink()) throw new Error(`Refusing a symbolic link: ${name}`)
+    if (/[\r\n\t\0]/.test(name) || (entry.name.startsWith('.') && name !== '.nojekyll')) throw new Error(`Invalid publishing path: ${name}`)
+    if (entry.isDirectory()) return collect(name)
+    if (!entry.isFile()) throw new Error(`Not a regular file: ${name}`)
+    return [[name, path.join(dist, name)]]
+  })
+  const files = collect()
+  for (const [name] of files) {
+    if (!required.includes(name) && !name.startsWith('archive/') && !name.startsWith('Media /')) {
+      throw new Error(`File outside the club website: ${name}. Publish the tour from its own repository.`)
+    }
+  }
+  const stateRoot = process.env.CLUB_DEPLOY_STATE_ROOT || path.join(root, 'build')
+  mkdirSync(stateRoot, { recursive: true })
+  const state = mkdtempSync(path.join(stateRoot, 'deploy-'))
+  const env = { ...process.env, GIT_INDEX_FILE: path.join(state, 'index') }
+  const git = (args, input) => execFileSync('git', ['-c', 'pack.threads=2', ...args], {
+    cwd: root, env, input, encoding: 'utf8', maxBuffer: 16 * 1024 * 1024, stdio: ['pipe', 'pipe', 'inherit'],
+  }).trim()
+  try {
+    git(['fetch', '--no-tags', '--', remote, 'refs/heads/gh-pages'])
+    const parent = git(['rev-parse', 'FETCH_HEAD'])
+    git(['read-tree', parent])
+    const hashes = git(['hash-object', '-w', '--stdin-paths'], files.map(([, file]) => JSON.stringify(file)).join('\n')).split('\n')
+    git(['update-index', '--add', '--index-info'], files.map(([name], i) => `100644 ${hashes[i]}\t${name}`).join('\n') + '\n')
+    const tree = git(['write-tree'])
+    if (tree === git(['rev-parse', `${parent}^{tree}`])) {
+      log('The club publishing branch already has this website.')
+      return { changed: false, commit: parent, tree }
+    }
+    const source = git(['rev-parse', '--short=12', 'HEAD'])
+    const dirty = git(['status', '--short', '--', 'index.html', 'club.css', 'archive', 'scripts', 'package.json'])
+    const commit = git(['commit-tree', tree, '-p', parent, '-m', `Deploy the club website at ${source}${dirty ? '-dirty' : ''}`])
+    if (dryRun) log(`Prepared club deployment ${commit}; no publishing branch was updated.`)
+    else {
+      git(['push', '--', remote, `${commit}:refs/heads/gh-pages`])
+      log(`Published the club website: ${files.length} updated files.`)
+    }
+    return { changed: true, commit, tree }
+  } finally { rmSync(state, { recursive: true, force: true }) }
 }
 
-git(['fetch', 'origin', 'gh-pages'])
-const parent = git(['rev-parse', 'origin/gh-pages'])
-execFileSync('mkdir', ['-p', path.dirname(index)])
-git(['read-tree', parent])
-const hashes = git(['hash-object', '-w', '--stdin-paths'], files.map(([, file]) => file).join('\n')).split('\n')
-git(['update-index', '--add', '--index-info'], files.map(([site], i) => `100644 ${hashes[i]}\t${site}`).join('\n') + '\n')
-const tree = git(['write-tree'])
-if (tree === git(['rev-parse', `${parent}^{tree}`])) {
-  console.log('gh-pages already has this site.')
-} else {
-  const tour = execFileSync('git', ['rev-parse', '--short', 'HEAD'], { cwd: path.join(root, '..', 'tour'), encoding: 'utf8' }).trim()
-  const commit = git(['commit-tree', tree, '-p', parent, '-m', `Deploy the tours at ${tour}${media ? ' with their photographs' : ''}`])
-  git(['push', 'origin', `${commit}:refs/heads/gh-pages`])
-  console.log(`Deployed the tours at ${tour} to gh-pages: ${files.length} files.`)
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  const args = process.argv.slice(2)
+  if (args.some(arg => arg !== '--dry-run')) throw new Error('Usage: npm run deploy -- [--dry-run]. Photograph uploads now use npm run deploy -- --media <public folder> in the tour repository.')
+  publishClub({ dryRun: args.includes('--dry-run') })
 }

@@ -3,10 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "The UMN VR club's site, https://umn-vr.github.io/: its landing page and the campus tours.",
+  "description": "The UMN VR club's website, published independently from its campus tours.",
   "license": "AGPL-3.0-only",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "deploy": "node scripts/deploy.mjs"
+    "preview": "npm run build && node scripts/preview.mjs",
+    "deploy": "npm run build && node scripts/deploy.mjs",
+    "test": "node --test scripts/*.test.mjs",
+    "ci": "npm test && npm run build"
+  },
+  "dependencies": {
+    "@foss-earth/ui": "file:../../foss-earth/ui"
   }
 }
