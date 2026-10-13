@@ -2,3 +2,5 @@ node_modules/
 dist/
 build/
 .DS_Store
+# Only records the sibling file: checkout of @foss-earth/ui. package.json already has that link.
+package-lock.json
