@@ -25,9 +25,14 @@ npm run build
 npm run deploy
 ```
 
-`npm run deploy` adds this site to `gh-pages`. It does not build or publish the
-tour, and it does not upload photographs. Those commands are in the tour
-repository.
+`npm run deploy` builds this site and adds it to `gh-pages`. It does not build
+or publish the tour, and it does not upload photographs. Those commands are in
+the tour repository. Before it builds, it records the commit of FOSS Earth's UI,
+whose theme the site copies, in `deployed-from.json`, and commits and pushes
+that file when the UI moved, so the build is a new version of the site. The
+record and the version are FOSS Earth About's, the same for every site
+([CONTRIBUTING](https://github.com/foss-earth/.github/blob/main/CONTRIBUTING.md#versions)).
+`npm run deploy -- --dry-run` says what it would record and publishes nothing.
 
 ## Project policies
 

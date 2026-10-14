@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict'
 import { spawnSync } from 'node:child_process'
-import { copyFile, mkdir, mkdtemp, readFile, readdir, rm, writeFile } from 'node:fs/promises'
+import { copyFile, mkdir, mkdtemp, readFile, readdir, realpath, rm, symlink, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import test from 'node:test'
@@ -29,6 +29,8 @@ async function fixture(t) {
   }))
   await put('node_modules/@foss-earth/ui/src/theme.css', '/* Shared UI theme fixture */\n')
   await put('node_modules/@foss-earth/ui/src/theme-page.js', 'export const sharedTheme = true;\n')
+  // The version is About's, as the club's own install has it.
+  await symlink(await realpath(path.join(root, 'node_modules/@foss-earth/about')), path.join(club, 'node_modules/@foss-earth/about'))
   await put('club.css', 'body { margin: 0; }\n')
   await put('archive/2026-10-11/index.html', '<h1>Previous homepage</h1>\n')
   await put('archive/2026-10-11/index.md', '# The old club\n\nUnchanged source.\n')
@@ -78,6 +80,16 @@ test('derives the version from Git and resets the revision on a new commit date'
   const result = run()
   assert.equal(result.status, 0, result.stderr)
   assert.equal(await readFile(path.join(club, 'dist', 'index.html'), 'utf8'), '<h1>The club</h1><span>26.10.12.#1</span>\n')
+})
+
+test('counts a commit on the day it was made in UTC, wherever it was made', async t => {
+  const { club, commit, run } = await fixture(t)
+  // 23:05 in Minneapolis on October 11 is 04:05 UTC on October 12.
+  commit('2026-10-11T23:05:00-05:00', 'Late in Minneapolis')
+  commit('2026-10-12T06:00:00+01:00', 'Morning in London')
+  const result = run()
+  assert.equal(result.status, 0, result.stderr)
+  assert.equal(await readFile(path.join(club, 'dist', 'index.html'), 'utf8'), '<h1>The club</h1><span>26.10.12.#2</span>\n')
 })
 
 test('refuses a version from a parent repository when the club Git checkout is missing', async t => {

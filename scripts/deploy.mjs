@@ -4,6 +4,7 @@ import { execFileSync } from 'node:child_process'
 import { existsSync, mkdirSync, mkdtempSync, readdirSync, rmSync } from 'node:fs'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { recordBuildInputs } from '@foss-earth/about/vite'
 
 const ROOT = fileURLToPath(new URL('../', import.meta.url))
 
@@ -47,7 +48,8 @@ export function publishClub({ root = ROOT, remote = 'origin', dryRun = false, lo
       return { changed: false, commit: parent, tree }
     }
     const source = git(['rev-parse', '--short=12', 'HEAD'])
-    const dirty = git(['status', '--short', '--', 'index.html', 'club.css', 'archive', 'scripts', 'package.json'])
+    // Against the checkout's own index: the publishing index holds gh-pages, not this branch.
+    const dirty = execFileSync('git', ['status', '--short', '--', 'index.html', 'club.css', 'archive', 'scripts', 'package.json'], { cwd: root, encoding: 'utf8' }).trim()
     const commit = git(['commit-tree', tree, '-p', parent, '-m', `Deploy the club website at ${source}${dirty ? '-dirty' : ''}`])
     if (dryRun) log(`Prepared club deployment ${commit}; no publishing branch was updated.`)
     else {
@@ -61,5 +63,9 @@ export function publishClub({ root = ROOT, remote = 'origin', dryRun = false, lo
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
   const args = process.argv.slice(2)
   if (args.some(arg => arg !== '--dry-run')) throw new Error('Usage: npm run deploy -- [--dry-run]. Photograph uploads now use npm run deploy -- --media <public folder> in the tour repository.')
-  publishClub({ dryRun: args.includes('--dry-run') })
+  const dryRun = args.includes('--dry-run')
+  // What the club is built from, FOSS Earth's theme, in deployed-from.json, so a new theme is a new version.
+  recordBuildInputs({ root: ROOT, dryRun })
+  execFileSync('npm', ['run', 'build'], { cwd: ROOT, stdio: 'inherit' })
+  publishClub({ dryRun })
 }
